@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "top": "burnt:block/burnt_moss",
+    "side": "burnt:block/burnt_moss",
+    "bottom": "burnt:block/burnt_moss"
+  },
+  "render_type": "solid"
+}

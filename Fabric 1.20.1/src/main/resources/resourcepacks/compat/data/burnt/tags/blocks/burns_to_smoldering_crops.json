@@ -1,0 +1,337 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomesoplenty:barley",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blueberry_bush",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:oddion_crop",
+      "required": false
+    },
+    {
+      "id": "byg:blueberry_bush",
+      "required": false
+    },
+    {
+      "id": "byg:oddion_crop",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:weeds",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:desert_turnip_stem",
+      "required": false
+    },
+    {
+      "id": "nomansland:apple",
+      "required": false
+    },
+    {
+      "id": "nomansland:pear",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:duskmelon",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:salmonberry_bush",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:budding_tomatoes",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:cabbages",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:onions",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:rice",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:rice_panicles",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:tomatoes",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:tomatoes_on_rope",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:wild_beetroots",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:wild_cabbages",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:wild_carrots",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:wild_onions",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:wild_potatoes",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:wild_rice",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:wild_tomatoes",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/alfalfa",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/barley",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/beet",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/cabbage",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/canola",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/carrot",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/cassava",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/garlic",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/green_bean",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/jute",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/lentil",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/maize",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/melon",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/oat",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/onion",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/papyrus",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/peanut",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/potato",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/pumpkin",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/radish",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/red_bell_pepper",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/rice",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/rye",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/soybean",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/squash",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/sugarcane",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/tomato",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/wheat",
+      "required": false
+    },
+    {
+      "id": "tfc:crop/yellow_bell_pepper",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/alfalfa",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/barley",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/beet",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/cabbage",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/canola",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/carrot",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/cassava",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/garlic",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/green_bean",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/jute",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/lentil",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/maize",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/melon",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/oat",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/onion",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/papyrus",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/peanut",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/potato",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/pumpkin",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/radish",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/red_bell_pepper",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/rice",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/rye",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/soybean",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/squash",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/sugarcane",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/tomato",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/wheat",
+      "required": false
+    },
+    {
+      "id": "tfc:wild_crop/yellow_bell_pepper",
+      "required": false
+    }
+  ]
+}

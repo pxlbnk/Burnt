@@ -1,0 +1,1013 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomesoplenty:dead_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:empyreal_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:maple_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:origin_oak_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pine_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_planks",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:aspen_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:baobab_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_enchanted_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cika_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cypress_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ebony_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:fir_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:florus_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:green_enchanted_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:holly_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ironwood_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:jacaranda_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mahogany_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:maple_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palm_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palo_verde_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pine_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rainbow_eucalyptus_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:redwood_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:sakura_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:skyris_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:spirit_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_mangrove_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:willow_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:witch_hazel_planks",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:zelkova_planks",
+      "required": false
+    },
+    {
+      "id": "byg:aspen_planks",
+      "required": false
+    },
+    {
+      "id": "byg:baobab_planks",
+      "required": false
+    },
+    {
+      "id": "byg:blue_enchanted_planks",
+      "required": false
+    },
+    {
+      "id": "byg:cika_planks",
+      "required": false
+    },
+    {
+      "id": "byg:cypress_planks",
+      "required": false
+    },
+    {
+      "id": "byg:ebony_planks",
+      "required": false
+    },
+    {
+      "id": "byg:fir_planks",
+      "required": false
+    },
+    {
+      "id": "byg:florus_planks",
+      "required": false
+    },
+    {
+      "id": "byg:green_enchanted_planks",
+      "required": false
+    },
+    {
+      "id": "byg:holly_planks",
+      "required": false
+    },
+    {
+      "id": "byg:ironwood_planks",
+      "required": false
+    },
+    {
+      "id": "byg:jacaranda_planks",
+      "required": false
+    },
+    {
+      "id": "byg:mahogany_planks",
+      "required": false
+    },
+    {
+      "id": "byg:maple_planks",
+      "required": false
+    },
+    {
+      "id": "byg:palm_planks",
+      "required": false
+    },
+    {
+      "id": "byg:palo_verde_planks",
+      "required": false
+    },
+    {
+      "id": "byg:pine_planks",
+      "required": false
+    },
+    {
+      "id": "byg:rainbow_eucalyptus_planks",
+      "required": false
+    },
+    {
+      "id": "byg:redwood_planks",
+      "required": false
+    },
+    {
+      "id": "byg:sakura_planks",
+      "required": false
+    },
+    {
+      "id": "byg:skyris_planks",
+      "required": false
+    },
+    {
+      "id": "byg:spirit_planks",
+      "required": false
+    },
+    {
+      "id": "byg:white_mangrove_planks",
+      "required": false
+    },
+    {
+      "id": "byg:willow_planks",
+      "required": false
+    },
+    {
+      "id": "byg:witch_hazel_planks",
+      "required": false
+    },
+    {
+      "id": "byg:zelkova_planks",
+      "required": false
+    },
+    {
+      "id": "quark:acacia_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:ancient_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:ancient_planks",
+      "required": false
+    },
+    {
+      "id": "quark:azalea_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:azalea_planks",
+      "required": false
+    },
+    {
+      "id": "quark:bamboo_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:birch_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:blossom_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:blossom_planks",
+      "required": false
+    },
+    {
+      "id": "quark:cherry_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:dark_oak_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:jungle_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:mangrove_bookshelf",
+      "required": false
+    },
+    {
+      "id": "quark:spruce_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/acacia_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/ash_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/aspen_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/birch_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/blackwood_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/chestnut_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/douglas_fir_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/hickory_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/kapok_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/mangrove_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/maple_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/oak_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/palm_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/pine_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/rosewood_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sequoia_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/spruce_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sycamore_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/white_cedar_bookshelf",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/willow",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/willow_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:acacia_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:acacia_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:acacia_mosaic",
+      "required": false
+    },
+    {
+      "id": "carved_wood:acacia_panels",
+      "required": false
+    },
+    {
+      "id": "carved_wood:acacia_pillar",
+      "required": false
+    },
+    {
+      "id": "carved_wood:acacia_tiles",
+      "required": false
+    },
+    {
+      "id": "carved_wood:bamboo_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:bamboo_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:bamboo_panels",
+      "required": false
+    },
+    {
+      "id": "carved_wood:bamboo_pillar",
+      "required": false
+    },
+    {
+      "id": "carved_wood:bamboo_tiles",
+      "required": false
+    },
+    {
+      "id": "carved_wood:birch_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:birch_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:birch_mosaic",
+      "required": false
+    },
+    {
+      "id": "carved_wood:birch_panels",
+      "required": false
+    },
+    {
+      "id": "carved_wood:birch_pillar",
+      "required": false
+    },
+    {
+      "id": "carved_wood:birch_tiles",
+      "required": false
+    },
+    {
+      "id": "carved_wood:carved_acacia_planks",
+      "required": false
+    },
+    {
+      "id": "carved_wood:carved_bamboo_planks",
+      "required": false
+    },
+    {
+      "id": "carved_wood:carved_birch_planks",
+      "required": false
+    },
+    {
+      "id": "carved_wood:carved_cherry_planks",
+      "required": false
+    },
+    {
+      "id": "carved_wood:carved_dark_oak_planks",
+      "required": false
+    },
+    {
+      "id": "carved_wood:carved_jungle_planks",
+      "required": false
+    },
+    {
+      "id": "carved_wood:carved_mangrove_planks",
+      "required": false
+    },
+    {
+      "id": "carved_wood:carved_oak_planks",
+      "required": false
+    },
+    {
+      "id": "carved_wood:carved_pale_oak_planks",
+      "required": false
+    },
+    {
+      "id": "carved_wood:carved_spruce_planks",
+      "required": false
+    },
+    {
+      "id": "carved_wood:cherry_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:cherry_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:cherry_mosaic",
+      "required": false
+    },
+    {
+      "id": "carved_wood:cherry_panels",
+      "required": false
+    },
+    {
+      "id": "carved_wood:cherry_pillar",
+      "required": false
+    },
+    {
+      "id": "carved_wood:cherry_tiles",
+      "required": false
+    },
+    {
+      "id": "carved_wood:chiseled_acacia_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:chiseled_bamboo_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:chiseled_birch_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:chiseled_cherry_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:chiseled_dark_oak_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:chiseled_jungle_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:chiseled_mangrove_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:chiseled_pale_oak_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:chiseled_spruce_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:dark_oak_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:dark_oak_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:dark_oak_mosaic",
+      "required": false
+    },
+    {
+      "id": "carved_wood:dark_oak_panels",
+      "required": false
+    },
+    {
+      "id": "carved_wood:dark_oak_pillar",
+      "required": false
+    },
+    {
+      "id": "carved_wood:dark_oak_tiles",
+      "required": false
+    },
+    {
+      "id": "carved_wood:jungle_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:jungle_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:jungle_mosaic",
+      "required": false
+    },
+    {
+      "id": "carved_wood:jungle_panels",
+      "required": false
+    },
+    {
+      "id": "carved_wood:jungle_pillar",
+      "required": false
+    },
+    {
+      "id": "carved_wood:jungle_tiles",
+      "required": false
+    },
+    {
+      "id": "carved_wood:mangrove_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:mangrove_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:mangrove_mosaic",
+      "required": false
+    },
+    {
+      "id": "carved_wood:mangrove_panels",
+      "required": false
+    },
+    {
+      "id": "carved_wood:mangrove_pillar",
+      "required": false
+    },
+    {
+      "id": "carved_wood:mangrove_tiles",
+      "required": false
+    },
+    {
+      "id": "carved_wood:oak_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:oak_mosaic",
+      "required": false
+    },
+    {
+      "id": "carved_wood:oak_panels",
+      "required": false
+    },
+    {
+      "id": "carved_wood:oak_pillar",
+      "required": false
+    },
+    {
+      "id": "carved_wood:oak_tiles",
+      "required": false
+    },
+    {
+      "id": "carved_wood:pale_oak_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:pale_oak_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:pale_oak_mosaic",
+      "required": false
+    },
+    {
+      "id": "carved_wood:pale_oak_panels",
+      "required": false
+    },
+    {
+      "id": "carved_wood:pale_oak_pillar",
+      "required": false
+    },
+    {
+      "id": "carved_wood:pale_oak_tiles",
+      "required": false
+    },
+    {
+      "id": "carved_wood:smooth_acacia_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:smooth_bamboo_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:smooth_birch_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:smooth_cherry_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:smooth_dark_oak_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:smooth_jungle_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:smooth_mangrove_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:smooth_oak_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:smooth_pale_oak_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:smooth_spruce_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:spruce_boards",
+      "required": false
+    },
+    {
+      "id": "carved_wood:spruce_bookshelf",
+      "required": false
+    },
+    {
+      "id": "carved_wood:spruce_mosaic",
+      "required": false
+    },
+    {
+      "id": "carved_wood:spruce_panels",
+      "required": false
+    },
+    {
+      "id": "carved_wood:spruce_pillar",
+      "required": false
+    },
+    {
+      "id": "carved_wood:spruce_tiles",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_acacia_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_aspen_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_bamboo_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_birch_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_cherry_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_dark_oak_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_driftwood_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_grimwood_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_jungle_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_kousa_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_laurel_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_mangrove_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_maple_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_morado_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_oak_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_pine_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_plum_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_powdery_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_river_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_rosewood_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_soulblight_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_spruce_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_whistlecane_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_willow_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_wisteria_planks",
+      "required": false
+    },
+    {
+      "id": "curiosities:fancied_yucca_planks",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/bookshelf/willow",
+      "required": false
+    }
+  ]
+}

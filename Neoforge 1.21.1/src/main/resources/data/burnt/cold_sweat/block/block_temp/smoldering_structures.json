@@ -1,0 +1,41 @@
+{
+  "required_mods": ["cold_sweat"],
+  "block": {
+    "blocks": [
+      "burnt:smoldering_oak_door",
+      "burnt:smoldering_birch_door",
+      "burnt:smoldering_spruce_door",
+      "burnt:smoldering_jungle_door",
+      "burnt:smoldering_acacia_door",
+      "burnt:smoldering_dark_oak_door",
+      "burnt:smoldering_cherry_door",
+      "burnt:smoldering_pale_oak_door",
+      "burnt:smoldering_mangrove_door",
+      "burnt:smoldering_bamboo_door",
+      "burnt:smoldering_door",
+      "burnt:smoldering_oak_trapdoor",
+      "burnt:smoldering_birch_trapdoor",
+      "burnt:smoldering_spruce_trapdoor",
+      "burnt:smoldering_jungle_trapdoor",
+      "burnt:smoldering_acacia_trapdoor",
+      "burnt:smoldering_dark_oak_trapdoor",
+      "burnt:smoldering_cherry_trapdoor",
+      "burnt:smoldering_pale_oak_trapdoor",
+      "burnt:smoldering_mangrove_trapdoor",
+      "burnt:smoldering_bamboo_trapdoor",
+      "burnt:smoldering_trapdoor",
+      "burnt:smoldering_bamboo_fence",
+      "burnt:smoldering_bamboo_fencegate",
+      "burnt:smoldering_bamboo_slab",
+      "burnt:smoldering_bamboo_stairs",
+      "burnt:smoldering_bamboo_mosaic_planks",
+      "burnt:smoldering_bamboo_mosaic_slab",
+      "burnt:smoldering_bamboo_mosaic_stairs"
+    ]
+  },
+  "temperature": 10,
+  "units": "f",
+  "range": 5,
+  "fade": true,
+  "max_effect": 35
+}

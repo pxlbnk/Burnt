@@ -1,0 +1,37 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomesoplenty:glowing_moss_carpet",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cattail_thatch_carpet",
+      "required": false
+    },
+    {
+      "id": "byg:cattail_thatch_carpet",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:coconut_thatch_carpet",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:evergreen_thatch_carpet",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:red_moss_carpet",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:xeric_thatch_carpet",
+      "required": false
+    },
+    {
+      "id": "minecraft:pale_moss_carpet",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,110 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:sooty_mud_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_granite_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_andesite_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_diorite_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_stone_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_cobblestone_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_cobblestone_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_bamboo_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_bamboo_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:blazing_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:ember_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_acacia_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_cherry_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_dark_oak_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mangrove_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_jungle_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_birch_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_spruce_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_oak_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_stairs",
+      "required": false
+    },
+    "burnt:sooty_pale_oak_stairs"
+  ]
+}

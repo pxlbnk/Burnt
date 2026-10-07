@@ -1,0 +1,569 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomesoplenty:dead_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:empyreal_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:maple_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:origin_oak_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pine_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_stairs",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:aspen_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:baobab_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_enchanted_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cika_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cypress_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ebony_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:fir_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:florus_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:green_enchanted_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:holly_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ironwood_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:jacaranda_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mahogany_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:maple_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palm_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palo_verde_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pine_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rainbow_eucalyptus_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:redwood_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:sakura_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:skyris_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:spirit_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_mangrove_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:willow_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:witch_hazel_stairs",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:zelkova_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:aspen_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:baobab_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:blue_enchanted_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:cika_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:cypress_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:ebony_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:fir_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:florus_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:green_enchanted_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:holly_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:ironwood_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:jacaranda_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:mahogany_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:maple_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:palm_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:palo_verde_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:pine_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:rainbow_eucalyptus_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:redwood_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:sakura_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:skyris_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:spirit_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:white_mangrove_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:willow_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:witch_hazel_stairs",
+      "required": false
+    },
+    {
+      "id": "byg:zelkova_stairs",
+      "required": false
+    },
+    {
+      "id": "quark:ancient_planks_stairs",
+      "required": false
+    },
+    {
+      "id": "quark:azalea_planks_stairs",
+      "required": false
+    },
+    {
+      "id": "quark:blossom_planks_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/acacia_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/ash_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/aspen_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/birch_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/blackwood_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/chestnut_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/douglas_fir_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/hickory_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/kapok_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/mangrove_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/maple_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/oak_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/palm_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/pine_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/rosewood_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sequoia_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/spruce_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sycamore_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/white_cedar_stairs",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/willow_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:acacia_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:acacia_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:bamboo_block_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:birch_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:birch_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:cherry_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:cherry_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:dark_oak_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:dark_oak_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:jungle_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:jungle_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:mangrove_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:mangrove_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:oak_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:oak_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:spruce_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:spruce_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_acacia_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_acacia_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_bamboo_block_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_birch_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_birch_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_cherry_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_cherry_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_dark_oak_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_dark_oak_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_jungle_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_jungle_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_mangrove_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_mangrove_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_oak_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_oak_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_spruce_log_stairs",
+      "required": false
+    },
+    {
+      "id": "more_slabs_stairs_and_walls:stripped_spruce_wood_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:acacia_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:acacia_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:bamboo_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:birch_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:birch_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:cherry_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:cherry_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:dark_oak_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:dark_oak_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:jungle_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:jungle_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:mangrove_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:mangrove_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:oak_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:oak_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:pale_oak_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:pale_oak_tile_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:spruce_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "carved_wood:spruce_tile_stairs",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:burnt_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:ember_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:blazing_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_acacia_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_birch_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_cherry_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_dark_oak_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_jungle_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mangrove_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_oak_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_spruce_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_bamboo_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_fence",
+      "required": false
+    },
+    "burnt:sooty_pale_oak_fence"
+  ]
+}

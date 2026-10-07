@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:burnt_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:ember_stairs",
+      "required": false
+    }
+  ]
+}

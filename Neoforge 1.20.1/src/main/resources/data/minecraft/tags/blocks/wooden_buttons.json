@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:burnt_bamboo_button",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_button",
+      "required": false
+    }
+  ]
+}

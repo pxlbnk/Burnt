@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomeswevegone:sandy_farmland",
+      "required": false
+    },
+    {
+      "id": "byg:sandy_farmland",
+      "required": false
+    }
+  ]
+}

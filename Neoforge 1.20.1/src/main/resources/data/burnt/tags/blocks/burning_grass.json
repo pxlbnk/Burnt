@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:smoldering_grass_start",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_grass",
+      "required": false
+    },
+    "burnt:smoldering_grass_slab"
+  ]
+}

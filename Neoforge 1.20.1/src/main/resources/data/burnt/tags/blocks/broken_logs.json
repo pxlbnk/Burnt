@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:broken_blazing_log",
+      "required": false
+    },
+    {
+      "id": "burnt:stripped_broken_burnt_log",
+      "required": false
+    },
+    {
+      "id": "burnt:broken_blazing_log_2",
+      "required": false
+    },
+    {
+      "id": "burnt:broken_burnt_log",
+      "required": false
+    },
+    {
+      "id": "burnt:stripped_broken_burnt_log_2",
+      "required": false
+    }
+  ]
+}

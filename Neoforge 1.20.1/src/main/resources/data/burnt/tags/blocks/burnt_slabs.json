@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:ember_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_slab",
+      "required": false
+    }
+  ]
+}

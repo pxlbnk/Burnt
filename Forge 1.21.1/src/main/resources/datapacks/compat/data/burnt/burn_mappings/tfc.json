@@ -1,0 +1,7 @@
+{
+  "_comment": "Thatch is straw roofing. Vanilla hay is hardcoded to Blocks.HAY_BLOCK and there is no burns_to_* hay tier tag, so bales/thatch can only be routed per-block. Checked before every tier tag.",
+  "mappings": [
+    { "from": "tfc:thatch",     "to": "burnt:smoldering_hay" },
+    { "from": "tfc:thatch_bed", "to": "burnt:smoldering_hay" }
+  ]
+}

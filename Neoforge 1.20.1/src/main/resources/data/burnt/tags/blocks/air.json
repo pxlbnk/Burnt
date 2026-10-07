@@ -1,0 +1,73 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:cave_air",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:firestarter",
+      "required": false
+    },
+    {
+      "id": "burnt:fire_set_block",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_3",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_2",
+      "required": false
+    },
+    {
+      "id": "minecraft:void_air",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire_3",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire_2",
+      "required": false
+    },
+    {
+      "id": "minecraft:air",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_9",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_8",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_5",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_4",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_7",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_6",
+      "required": false
+    }
+  ]
+}

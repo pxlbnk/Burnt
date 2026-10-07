@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.pixelbank.burnt.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "burnt-refmap.json",
+  "mixins": [
+    "CropBlockMixin",
+    "FireBlockOnPlaceMixin",
+    "FirePathTypeMixin",
+    "FlameArrowMixin",
+    "LavaFireIgnitionMixin",
+    "LightningBoltMixin",
+    "RecipeManagerDisableMixin",
+    "SmallFireballMixin",
+    "SplashPotionMixin",
+    "StemBlockMixin"
+  ],
+  "client": [
+    "ParticleEngineAddMixin",
+    "SmokeFogMixin",
+    "accessor.ParticleAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,64 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "burnt:block/small_burnt_log_core"
+      }
+    },
+    {
+      "when": {
+        "up": "true"
+      },
+      "apply": {
+        "model": "burnt:block/small_burnt_log_stub"
+      }
+    },
+    {
+      "when": {
+        "down": "true"
+      },
+      "apply": {
+        "model": "burnt:block/small_burnt_log_stub",
+        "x": 180
+      }
+    },
+    {
+      "when": {
+        "north": "true"
+      },
+      "apply": {
+        "model": "burnt:block/small_burnt_log_stub",
+        "x": 90
+      }
+    },
+    {
+      "when": {
+        "south": "true"
+      },
+      "apply": {
+        "model": "burnt:block/small_burnt_log_stub",
+        "x": 270
+      }
+    },
+    {
+      "when": {
+        "east": "true"
+      },
+      "apply": {
+        "model": "burnt:block/small_burnt_log_stub",
+        "x": 90,
+        "y": 90
+      }
+    },
+    {
+      "when": {
+        "west": "true"
+      },
+      "apply": {
+        "model": "burnt:block/small_burnt_log_stub",
+        "x": 270,
+        "y": 90
+      }
+    }
+  ]
+}

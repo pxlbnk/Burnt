@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:burnt_vine",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_cave_vines",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_cave_vines_plant",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_cave_vines",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_cave_vines_plant",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_ladder",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_scaffolding",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_ivy",
+      "required": false
+    },
+    {
+      "id": "burnt:burning_cave_vines_plant",
+      "required": false
+    }
+  ]
+}

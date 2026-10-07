@@ -1,0 +1,120 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:sooty_mud_brick_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_granite_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_andesite_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_diorite_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_brick_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_stone_brick_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone_brick_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_cobblestone_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_cobblestone_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:falling_burnt_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_mosaic_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_oak_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_spruce_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_birch_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_jungle_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mangrove_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_dark_oak_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_cherry_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_acacia_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:ember_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:blazing_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_bamboo_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_bamboo_mosaic_slab",
+      "required": false
+    },
+    "burnt:sooty_pale_oak_slab",
+    "burnt:smoldering_grass_slab",
+    "burnt:burnt_grass_slab",
+    "burnt:recovering_grass_slab",
+    "burnt:smoldering_moss_slab",
+    "burnt:burnt_moss_slab",
+    "burnt:burnt_dirt_slab"
+  ]
+}

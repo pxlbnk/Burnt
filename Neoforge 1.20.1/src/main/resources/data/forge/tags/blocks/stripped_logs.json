@@ -1,0 +1,74 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:stripped_oak_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:stripped_spruce_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:stripped_birch_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:stripped_jungle_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:stripped_acacia_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:stripped_dark_oak_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:stripped_mangrove_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:stripped_cherry_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_oak_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_spruce_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_birch_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_acacia_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_jungle_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_dark_oak_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_mangrove_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_cherry_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:stripped_pale_oak_log",
+      "required": false
+    },
+    "burnt:sooty_stripped_pale_oak_log"
+  ]
+}

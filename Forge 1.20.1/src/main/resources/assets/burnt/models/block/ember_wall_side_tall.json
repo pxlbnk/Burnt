@@ -1,0 +1,5 @@
+{
+  "parent": "block/template_wall_side_tall",
+  "textures": { "wall": "burnt:block/ember_planks", "particle": "burnt:block/ember_planks" },
+  "render_type": "solid"
+}

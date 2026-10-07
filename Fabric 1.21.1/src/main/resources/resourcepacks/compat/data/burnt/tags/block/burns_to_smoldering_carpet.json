@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:canvas_rug",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:full_tatami_mat",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:half_tatami_mat",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:tatami",
+      "required": false
+    }
+  ]
+}

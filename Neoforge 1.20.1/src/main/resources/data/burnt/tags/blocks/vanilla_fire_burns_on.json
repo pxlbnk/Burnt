@@ -1,0 +1,64 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bedrock",
+    "#minecraft:base_stone_overworld",
+    "#minecraft:base_stone_nether",
+    "#minecraft:stone_bricks",
+    "minecraft:cobblestone",
+    "minecraft:mossy_cobblestone",
+    "minecraft:smooth_stone",
+    "minecraft:polished_granite",
+    "minecraft:polished_diorite",
+    "minecraft:polished_andesite",
+    "minecraft:cobbled_deepslate",
+    "minecraft:polished_deepslate",
+    "minecraft:deepslate_bricks",
+    "minecraft:cracked_deepslate_bricks",
+    "minecraft:deepslate_tiles",
+    "minecraft:cracked_deepslate_tiles",
+    "minecraft:chiseled_deepslate",
+    "minecraft:reinforced_deepslate",
+    "minecraft:smooth_basalt",
+    "minecraft:polished_basalt",
+    "minecraft:polished_blackstone",
+    "minecraft:polished_blackstone_bricks",
+    "minecraft:cracked_polished_blackstone_bricks",
+    "minecraft:chiseled_polished_blackstone",
+    "minecraft:gilded_blackstone",
+    "minecraft:calcite",
+    "minecraft:dripstone_block",
+    {
+      "id": "minecraft:polished_tuff",
+      "required": false
+    },
+    {
+      "id": "minecraft:tuff_bricks",
+      "required": false
+    },
+    {
+      "id": "minecraft:chiseled_tuff",
+      "required": false
+    },
+    {
+      "id": "tfc:pit_kiln",
+      "required": false
+    },
+    {
+      "id": "tfc:log_pile",
+      "required": false
+    },
+    {
+      "id": "tfc:burning_log_pile",
+      "required": false
+    },
+    {
+      "id": "tfc:charcoal_pile",
+      "required": false
+    },
+    {
+      "id": "tfc:charcoal_forge",
+      "required": false
+    }
+  ]
+}

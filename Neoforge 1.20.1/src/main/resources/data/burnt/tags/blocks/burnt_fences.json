@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:burnt_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:ember_fence",
+      "required": false
+    }
+  ]
+}

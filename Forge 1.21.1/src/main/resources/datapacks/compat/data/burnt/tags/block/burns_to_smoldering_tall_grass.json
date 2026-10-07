@@ -1,0 +1,189 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomesoplenty:high_grass",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:high_grass_plant",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:beach_grass",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:prairie_grass",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:tall_beach_grass",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:tall_prairie_grass",
+      "required": false
+    },
+    {
+      "id": "byg:beach_grass",
+      "required": false
+    },
+    {
+      "id": "byg:prairie_grass",
+      "required": false
+    },
+    {
+      "id": "byg:tall_beach_grass",
+      "required": false
+    },
+    {
+      "id": "byg:tall_prairie_grass",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:dune_grass",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tall_beach_grass",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tall_frigid_grass",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tall_melic_grass",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tall_oat_grass",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tall_scorched_grass",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:tall_sedge_grass",
+      "required": false
+    },
+    {
+      "id": "nomansland:tall_beachgrass",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:bladed_tall_grass",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:sandy_tall_grass",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:steppe_tall_grass",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:windswept_grass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/arundo",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/arundo_plant",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/beachgrass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/bear_grass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/bluegrass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/bromegrass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/bur_reed",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/cattail",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/cordgrass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/dry_grass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/dry_phragmite",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/dry_phragmite_plant",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/fountain_grass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/orchard_grass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/pampas_grass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/phragmite",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/raddia_grass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/red_oat_grass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/ryegrass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/sago",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/scutch_grass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/switchgrass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/tall_fescue_grass",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/timothy_grass",
+      "required": false
+    }
+  ]
+}

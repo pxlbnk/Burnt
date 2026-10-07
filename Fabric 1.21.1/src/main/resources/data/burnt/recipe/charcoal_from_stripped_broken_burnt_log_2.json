@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "burnt",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "burnt:stripped_broken_burnt_log_2"
+    }
+  ],
+  "result": {
+    "id": "minecraft:charcoal",
+    "count": 2
+  }
+}

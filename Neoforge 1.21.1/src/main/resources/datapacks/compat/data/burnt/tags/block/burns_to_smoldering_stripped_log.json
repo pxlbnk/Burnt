@@ -1,0 +1,397 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomesoplenty:stripped_dead_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_empyreal_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_fir_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_jacaranda_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_magic_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_mahogany_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_maple_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_origin_oak_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_palm_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_pine_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_redwood_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_umbran_log",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:stripped_willow_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_aspen_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_baobab_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_blue_enchanted_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_cika_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_cypress_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_ebony_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_fir_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_florus_stem",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_green_enchanted_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_holly_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_ironwood_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_jacaranda_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_mahogany_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_maple_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_palm_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_palo_verde_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_pine_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_rainbow_eucalyptus_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_redwood_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_sakura_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_skyris_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_spirit_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_white_mangrove_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_willow_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_witch_hazel_log",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:stripped_zelkova_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_aspen_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_baobab_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_blue_enchanted_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_cika_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_cypress_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_ebony_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_fir_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_florus_stem",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_green_enchanted_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_holly_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_ironwood_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_jacaranda_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_mahogany_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_maple_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_palm_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_palo_verde_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_pine_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_rainbow_eucalyptus_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_redwood_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_sakura_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_skyris_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_spirit_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_white_mangrove_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_willow_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_witch_hazel_log",
+      "required": false
+    },
+    {
+      "id": "byg:stripped_zelkova_log",
+      "required": false
+    },
+    {
+      "id": "quark:stripped_ancient_log",
+      "required": false
+    },
+    {
+      "id": "quark:stripped_azalea_log",
+      "required": false
+    },
+    {
+      "id": "quark:stripped_blossom_log",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/stripped_log/willow",
+      "required": false
+    },
+    {
+      "id": "carved_wood:stripped_acacia_log_bundle",
+      "required": false
+    },
+    {
+      "id": "carved_wood:stripped_bamboo_bundle",
+      "required": false
+    },
+    {
+      "id": "carved_wood:stripped_birch_log_bundle",
+      "required": false
+    },
+    {
+      "id": "carved_wood:stripped_cherry_log_bundle",
+      "required": false
+    },
+    {
+      "id": "carved_wood:stripped_dark_oak_log_bundle",
+      "required": false
+    },
+    {
+      "id": "carved_wood:stripped_jungle_log_bundle",
+      "required": false
+    },
+    {
+      "id": "carved_wood:stripped_mangrove_log_bundle",
+      "required": false
+    },
+    {
+      "id": "carved_wood:stripped_oak_log_bundle",
+      "required": false
+    },
+    {
+      "id": "carved_wood:stripped_pale_oak_log_bundle",
+      "required": false
+    },
+    {
+      "id": "carved_wood:stripped_spruce_log_bundle",
+      "required": false
+    }
+  ]
+}

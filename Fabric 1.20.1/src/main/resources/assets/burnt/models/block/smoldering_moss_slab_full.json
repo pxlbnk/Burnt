@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "top": "burnt:block/smoldering_moss",
+    "side": "burnt:block/smoldering_moss",
+    "bottom": "burnt:block/smoldering_moss"
+  },
+  "render_type": "solid"
+}

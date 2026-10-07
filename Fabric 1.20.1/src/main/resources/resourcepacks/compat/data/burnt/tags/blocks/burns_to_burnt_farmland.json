@@ -1,0 +1,69 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomeswevegone:lush_farmland",
+      "required": false
+    },
+    {
+      "id": "byg:lush_farmland",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:earthen_clay_farmland",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:loamy_farmland",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:silty_farmland",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:peat_farmland",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:silt_farmland",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:rich_soil_farmland",
+      "required": false
+    },
+    {
+      "id": "tfc:farmland/alfisol",
+      "required": false
+    },
+    {
+      "id": "tfc:farmland/andisol",
+      "required": false
+    },
+    {
+      "id": "tfc:farmland/aridisol",
+      "required": false
+    },
+    {
+      "id": "tfc:farmland/entisol",
+      "required": false
+    },
+    {
+      "id": "tfc:farmland/fluvisol",
+      "required": false
+    },
+    {
+      "id": "tfc:farmland/mollisol",
+      "required": false
+    },
+    {
+      "id": "tfc:farmland/oxisol",
+      "required": false
+    },
+    {
+      "id": "tfc:farmland/podzol",
+      "required": false
+    }
+  ]
+}

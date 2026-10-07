@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:burnt_moss",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_grass",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_grass",
+      "required": false
+    },
+    {
+      "id": "burnt:recovering_grass",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_dirt",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_grass_start",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_moss",
+      "required": false
+    }
+  ]
+}

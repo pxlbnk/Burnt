@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "group": "burnt",
+  "category": "blocks",
+  "experience": 1,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "minecraft:bamboo_button"
+  },
+  "result": "burnt:burnt_bamboo_button"
+}

@@ -1,0 +1,437 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomesoplenty:dead_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:empyreal_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:maple_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:origin_oak_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pine_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:aspen_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:baobab_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_enchanted_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cika_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cypress_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ebony_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:fir_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:florus_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:green_enchanted_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:holly_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ironwood_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:jacaranda_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mahogany_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:maple_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palm_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palo_verde_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pine_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rainbow_eucalyptus_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:redwood_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:sakura_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:skyris_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:spirit_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_mangrove_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:willow_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:witch_hazel_trapdoor",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:zelkova_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:aspen_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:baobab_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:blue_enchanted_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:cika_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:cypress_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:ebony_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:fir_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:florus_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:green_enchanted_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:holly_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:ironwood_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:jacaranda_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:mahogany_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:maple_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:palm_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:palo_verde_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:pine_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:rainbow_eucalyptus_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:redwood_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:sakura_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:skyris_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:spirit_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:white_mangrove_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:willow_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:witch_hazel_trapdoor",
+      "required": false
+    },
+    {
+      "id": "byg:zelkova_trapdoor",
+      "required": false
+    },
+    {
+      "id": "quark:ancient_trapdoor",
+      "required": false
+    },
+    {
+      "id": "quark:azalea_trapdoor",
+      "required": false
+    },
+    {
+      "id": "quark:blossom_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/acacia_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/ash_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/aspen_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/birch_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/blackwood_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/chestnut_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/douglas_fir_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/hickory_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/kapok_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/mangrove_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/maple_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/oak_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/palm_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/pine_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/rosewood_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sequoia_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/spruce_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sycamore_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/white_cedar_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/willow_trapdoor",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/trapdoor/willow",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:smoldering_bamboo_mosaic_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_block",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_fence",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_stalk",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_mosaic_planks",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_fencegate",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_planks",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_mosaic_slab",
+      "required": false
+    }
+  ]
+}

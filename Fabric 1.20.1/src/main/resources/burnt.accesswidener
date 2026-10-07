@@ -1,0 +1,10 @@
+accessWidener v2 named
+
+# Access widener for Burnt Basic (Fabric 1.21.1, Mojang mappings)
+# Add entries here if specific private/protected members need widening.
+
+# Needed by FireOutCommandProcedure to iterate all loaded chunks
+accessible method net/minecraft/server/level/ChunkMap getChunks ()Ljava/lang/Iterable;
+
+# Needed by FleeFireGoal registration to inject goals into Villager
+accessible field net/minecraft/world/entity/Mob goalSelector Lnet/minecraft/world/entity/ai/goal/GoalSelector;

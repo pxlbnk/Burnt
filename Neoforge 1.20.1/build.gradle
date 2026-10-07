@@ -1,0 +1,131 @@
+plugins {
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+    id 'net.minecraftforge.gradle' version '[6.0.16,6.2)'
+    id 'org.spongepowered.mixin' version '0.7.38'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(17)
+    }
+}
+
+minecraft {
+    // Forge 1.20.1 production mappings — official (mojmap) at compile time, reobfuscated to SRG on jar
+    mappings channel: 'official', version: minecraft_version
+
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    runs {
+        configureEach {
+            workingDirectory project.file('runs/' + name)
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            mods {
+                "${mod_id}" {
+                    source sourceSets.main
+                }
+            }
+        }
+        client { }
+        server { args '--nogui' }
+        data {
+            workingDirectory project.file('runs/data')
+            args '--mod', "${mod_id}", '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+        }
+    }
+}
+
+sourceSets.main.resources { srcDir 'src/generated/resources' }
+
+// MixinGradle: generate burnt-refmap.json (mojmap -> SRG) so mixins targeting
+// vanilla methods apply in production, where Forge 1.20.1 runs SRG names.
+mixin {
+    add sourceSets.main, 'burnt-refmap.json'
+    config 'burnt.mixins.json'
+    config 'burnt.compat.mixins.json'
+}
+
+repositories {
+    maven { url 'https://maven.shedaniel.me/' }       // Cloth Config
+    maven { url 'https://maven.minecraftforge.net/' } // Forge maven
+    mavenCentral()
+}
+
+// Force all ASM modules to the same version to prevent module-path conflicts.
+configurations.all {
+    resolutionStrategy {
+        force 'org.ow2.asm:asm:9.7'
+        force 'org.ow2.asm:asm-commons:9.7'
+        force 'org.ow2.asm:asm-tree:9.7'
+        force 'org.ow2.asm:asm-analysis:9.7'
+        force 'org.ow2.asm:asm-util:9.7'
+    }
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+
+    // Cloth Config (Forge 1.20.1 variant — provides the in-game config GUI)
+    implementation fg.deobf("me.shedaniel.cloth:cloth-config-forge:${cloth_config_version}")
+
+    // JSR-305 annotations (@Nullable etc.)
+    compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
+
+    // Mixin annotation processor (writes the refmap during compile)
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    // Weather2 — optional compat, compile-only (not shipped with Burnt)
+    // compileOnly files('libs/weather2-forge-1.20.1-x.x.x.jar')
+
+    // Serene Seasons — optional compat, compile-only (not shipped with Burnt)
+    // compileOnly files('libs/SereneSeasons-forge-1.20.1-x.x.x.x.jar')
+
+    // AdPother — optional compat, compile-only (not shipped with Burnt)
+    // compileOnly files('libs/AdPother-1.20.1-x.x.x.x-forge-build.xxxx.jar')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    it.options.release = 17
+}
+
+// Substitute ${mod_version} (and other gradle.properties values) inside mods.toml
+// at build time so the jar's embedded version always matches the gradle one.
+processResources {
+    inputs.property 'mod_version', mod_version
+    inputs.property 'mod_id',      mod_id
+    filesMatching(['META-INF/mods.toml', 'META-INF/neoforge.mods.toml']) {
+        expand mod_version: mod_version, mod_id: mod_id
+    }
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}" }
+    }
+    manifest {
+        attributes([
+            'Specification-Title'   : 'burnt',
+            'Specification-Vendor'  : 'Pixelbank',
+            'Specification-Version' : '1',
+            'Implementation-Title'  : project.name,
+            'Implementation-Version': project.jar.archiveVersion,
+            'Implementation-Vendor' : 'Pixelbank',
+            'MixinConfigs'          : 'burnt.mixins.json,burnt.compat.mixins.json',
+        ])
+    }
+}
+
+// ForgeGradle 6: jar reobf is automatic via the `reobfJar` task wired into `assemble`.

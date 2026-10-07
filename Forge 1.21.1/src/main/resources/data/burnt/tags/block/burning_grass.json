@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "burnt:smoldering_grass_start",
+    "burnt:smoldering_grass",
+    "burnt:smoldering_grass_slab"
+  ]
+}

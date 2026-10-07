@@ -1,0 +1,85 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:fire",
+      "required": false
+    },
+    {
+      "id": "burnt:firestarter",
+      "required": false
+    },
+    {
+      "id": "burnt:tall_flames",
+      "required": false
+    },
+    {
+      "id": "burnt:double_tall_grass_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:tall_grass_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_2",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_3",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_4",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_5",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_6",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_7",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_8",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_9",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire_2",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire_3",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire_4",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire_5",
+      "required": false
+    },
+    {
+      "id": "burnt:blast_leaves",
+      "required": false
+    }
+  ]
+}

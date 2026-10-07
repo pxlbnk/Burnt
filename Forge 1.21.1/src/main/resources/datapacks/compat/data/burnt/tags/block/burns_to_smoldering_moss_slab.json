@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "terrain_slabs:moss_slab",
+      "required": false
+    }
+  ]
+}

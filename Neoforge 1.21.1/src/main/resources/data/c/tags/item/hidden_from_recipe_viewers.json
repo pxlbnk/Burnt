@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "burnt:extinguisher_spray",
+    "burnt:smoldering_grass_slab",
+    "burnt:burnt_grass_slab",
+    "burnt:recovering_grass_slab",
+    "burnt:smoldering_moss_slab",
+    "burnt:burnt_moss_slab",
+    "burnt:burnt_dirt_slab"
+  ]
+}

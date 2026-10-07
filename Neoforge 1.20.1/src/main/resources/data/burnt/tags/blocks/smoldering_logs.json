@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:smoldering_log_2",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_log",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_log_3",
+      "required": false
+    },
+    "burnt:smoldering_hollow_log"
+  ]
+}

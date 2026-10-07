@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "top": "burnt:block/smoldering_grass_top",
+    "side": "burnt:block/burnt_grass_side",
+    "bottom": "burnt:block/burnt_grass_bottom"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,81 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:black_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:purple_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:magenta_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:pink_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:blue_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:green_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:grey_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:light_blue_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:light_grey_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:cyan_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:lime_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:orange_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:yellow_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:brown_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:white_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:red_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:wind_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:rainbow_flag",
+      "required": false
+    },
+    {
+      "id": "burnt:pirate_flag",
+      "required": false
+    }
+  ]
+}

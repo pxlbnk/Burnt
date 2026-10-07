@@ -1,0 +1,121 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "fox",
+      "required": false
+    },
+    {
+      "id": "mooshroom",
+      "required": false
+    },
+    {
+      "id": "cow",
+      "required": false
+    },
+    {
+      "id": "pig",
+      "required": false
+    },
+    {
+      "id": "camel",
+      "required": false
+    },
+    {
+      "id": "ocelot",
+      "required": false
+    },
+    {
+      "id": "armadillo",
+      "required": false
+    },
+    {
+      "id": "parrot",
+      "required": false
+    },
+    {
+      "id": "trader_llama",
+      "required": false
+    },
+    {
+      "id": "evoker",
+      "required": false
+    },
+    {
+      "id": "villager",
+      "required": false
+    },
+    {
+      "id": "pillager",
+      "required": false
+    },
+    {
+      "id": "goat",
+      "required": false
+    },
+    {
+      "id": "piglin_brute",
+      "required": false
+    },
+    {
+      "id": "polar_bear",
+      "required": false
+    },
+    {
+      "id": "wolf",
+      "required": false
+    },
+    {
+      "id": "zombie",
+      "required": false
+    },
+    {
+      "id": "cat",
+      "required": false
+    },
+    {
+      "id": "frog",
+      "required": false
+    },
+    {
+      "id": "panda",
+      "required": false
+    },
+    {
+      "id": "mule",
+      "required": false
+    },
+    {
+      "id": "sniffer",
+      "required": false
+    },
+    {
+      "id": "snow_golem",
+      "required": false
+    },
+    {
+      "id": "allay",
+      "required": false
+    },
+    {
+      "id": "bee",
+      "required": false
+    },
+    {
+      "id": "piglin",
+      "required": false
+    },
+    {
+      "id": "wandering_trader",
+      "required": false
+    },
+    {
+      "id": "chicken",
+      "required": false
+    },
+    {
+      "id": "sheep",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "burnt:blocks/ember_wall",
+  "pools": [
+    { "rolls": 1.0, "entries": [ { "type": "minecraft:item", "name": "burnt:burnt_wall",
+      "functions": [ { "function": "minecraft:explosion_decay" } ] } ] }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "minecraft:grass_block",
+      "required": false
+    }
+  ]
+}

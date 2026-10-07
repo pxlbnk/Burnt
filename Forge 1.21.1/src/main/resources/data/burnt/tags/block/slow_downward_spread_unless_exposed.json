@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:logs_that_burn",
+    "#burnt:burns_to_smoldering_log",
+    "#burnt:burns_to_smoldering_log_slow",
+    "#burnt:burns_to_smoldering_wood",
+    "#burnt:burns_to_smoldering_stripped_log",
+    "#burnt:burns_to_smoldering_stripped_wood",
+    "#burnt:burns_to_small_log",
+    "#burnt:burns_to_hollow_log"
+  ]
+}

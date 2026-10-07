@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:burnt_cave_vines",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_cave_vines_plant",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_cave_vines",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_cave_vines_plant",
+      "required": false
+    },
+    {
+      "id": "burnt:burning_cave_vines_plant",
+      "required": false
+    }
+  ]
+}

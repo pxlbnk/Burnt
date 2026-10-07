@@ -1,0 +1,7 @@
+{
+  "_comment": "Vanilla hay is hardcoded to Blocks.HAY_BLOCK and there is no burns_to_* hay tier tag, so modded bales can only be routed via a per-block mapping. Checked before every tier tag.",
+  "mappings": [
+    { "from": "farmersdelight:straw_bale", "to": "burnt:smoldering_hay" },
+    { "from": "farmersdelight:rice_bale",  "to": "burnt:smoldering_hay" }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:smoldering_moss_carpet",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_moss",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_moss_carpet",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_moss",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_hay",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_hay",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_leaves",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_leaves",
+      "required": false
+    },
+    "burnt:smoldering_moss_slab",
+    "burnt:burnt_moss_slab"
+  ]
+}

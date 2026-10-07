@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomeswevegone:allium_petal_block",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pink_allium_petal_block",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rose_petal_block",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_allium_petal_block",
+      "required": false
+    },
+    {
+      "id": "byg:allium_petal_block",
+      "required": false
+    },
+    {
+      "id": "byg:pink_allium_petal_block",
+      "required": false
+    },
+    {
+      "id": "byg:rose_petal_block",
+      "required": false
+    },
+    {
+      "id": "byg:white_allium_petal_block",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:coconut_thatch",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:evergreen_thatch",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:xeric_thatch",
+      "required": false
+    }
+  ]
+}

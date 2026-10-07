@@ -1,0 +1,36 @@
+package net.pixelbank.burnt.procedures;
+
+import net.minecraft.world.level.LevelAccessor;
+import net.minecraft.world.level.GameType;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.damagesource.DamageTypes;
+import net.minecraft.world.damagesource.DamageSource;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.client.multiplayer.PlayerInfo;
+import net.minecraft.client.Minecraft;
+
+import net.minecraft.core.registries.Registries;
+
+public class CactusDamageProcedure {
+	public static void execute(LevelAccessor world, Entity entity) {
+		if (entity == null)
+			return;
+		if (!world.isClientSide()) {
+			if (getEntityGameType(entity) == GameType.SURVIVAL) {
+				entity.hurt(new DamageSource(world.registryAccess().lookupOrThrow(net.minecraft.core.registries.Registries.DAMAGE_TYPE).getOrThrow(DamageTypes.CACTUS)), 1);
+			}
+		}
+	}
+
+	private static GameType getEntityGameType(Entity entity) {
+		if (entity instanceof ServerPlayer serverPlayer) {
+			return serverPlayer.gameMode.getGameModeForPlayer();
+		} else if (entity instanceof Player player && player.level().isClientSide()) {
+			PlayerInfo playerInfo = Minecraft.getInstance().getConnection().getPlayerInfo(player.getGameProfile().getId());
+			if (playerInfo != null)
+				return playerInfo.getGameMode();
+		}
+		return null;
+	}
+}

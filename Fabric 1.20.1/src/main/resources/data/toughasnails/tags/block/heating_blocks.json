@@ -1,0 +1,60 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#burnt:wood_fire",
+      "required": false
+    },
+    {
+      "id": "#burnt:stairs_fire",
+      "required": false
+    },
+    "burnt:blazing_log",
+    "burnt:broken_blazing_log",
+    "burnt:broken_blazing_log_2",
+    "burnt:blazing_wood",
+    "burnt:blazing_planks",
+    "burnt:blazing_stairs",
+    "burnt:blazing_slab",
+    "burnt:blazing_fence",
+    "burnt:blazing_fence_gate",
+    {
+      "id": "#burnt:smoldering_logs",
+      "required": false
+    },
+    {
+      "id": "#burnt:smoldering_planks",
+      "required": false
+    },
+    {
+      "id": "#burnt:smoldering_leaves",
+      "required": false
+    },
+    "burnt:small_smoldering_log",
+    "burnt:smoldering_stripped_log",
+    "burnt:smoldering_wood",
+    "burnt:smoldering_stripped_wood",
+    "burnt:smoldering_bamboo_block",
+    "burnt:smoldering_bamboo_planks",
+    "burnt:smoldering_bamboo_stalk",
+    "burnt:smoldering_stairs",
+    "burnt:smoldering_slab",
+    "burnt:smoldering_fence",
+    "burnt:smoldering_fencegate",
+    "burnt:smoldering_wool",
+    "burnt:smoldering_carpet",
+    "burnt:smoldering_hay",
+    "burnt:smoldering_campfire",
+    "burnt:ember_log",
+    "burnt:stripped_ember_log",
+    "burnt:ember_wood",
+    "burnt:ember_planks",
+    "burnt:ember_stairs",
+    "burnt:ember_slab",
+    "burnt:ember_fence",
+    "burnt:ember_fence_gate",
+    "burnt:ember_campfire",
+    "burnt:smoldering_grass_slab",
+    "burnt:smoldering_moss_slab"
+  ]
+}

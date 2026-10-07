@@ -1,0 +1,113 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:smoldering_wheat",
+      "required": false
+    },
+    {
+      "id": "burnt:tall_flames",
+      "required": false
+    },
+    {
+      "id": "burnt:double_tall_grass_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_cave_vines",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire_5",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_crops",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_carrots",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire_3",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire_4",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire_2",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_cave_vines_plant",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_beetroot",
+      "required": false
+    },
+    {
+      "id": "burnt:tall_grass_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:grass_flames",
+      "required": false
+    },
+    {
+      "id": "burnt:stairs_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_potatoes",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:firestarter",
+      "required": false
+    },
+    {
+      "id": "minecraft:fire",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_3",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_2",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_9",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_8",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_5",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_4",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_7",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_6",
+      "required": false
+    }
+  ]
+}

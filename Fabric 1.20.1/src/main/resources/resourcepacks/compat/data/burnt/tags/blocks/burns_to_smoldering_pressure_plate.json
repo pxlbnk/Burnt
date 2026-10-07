@@ -1,0 +1,441 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomesoplenty:dead_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:empyreal_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:maple_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:origin_oak_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pine_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:aspen_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:baobab_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_enchanted_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cika_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cypress_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ebony_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:fir_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:florus_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:green_enchanted_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:holly_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ironwood_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:jacaranda_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mahogany_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:maple_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palm_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palo_verde_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pine_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rainbow_eucalyptus_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:redwood_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:sakura_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:skyris_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:spirit_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_mangrove_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:willow_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:witch_hazel_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:zelkova_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:aspen_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:baobab_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:blue_enchanted_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:cika_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:cypress_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:ebony_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:fir_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:florus_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:green_enchanted_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:holly_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:ironwood_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:jacaranda_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:mahogany_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:maple_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:palm_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:palo_verde_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:pine_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:rainbow_eucalyptus_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:redwood_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:sakura_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:skyris_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:spirit_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:white_mangrove_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:willow_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:witch_hazel_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "byg:zelkova_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "quark:ancient_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "quark:azalea_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "quark:blossom_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/acacia_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/ash_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/aspen_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/birch_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/blackwood_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/chestnut_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/douglas_fir_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/hickory_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/kapok_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/mangrove_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/maple_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/oak_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/palm_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/pine_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/rosewood_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sequoia_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/spruce_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sycamore_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/white_cedar_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/willow_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "minecraft:pale_oak_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/pressure_plate/willow",
+      "required": false
+    }
+  ]
+}

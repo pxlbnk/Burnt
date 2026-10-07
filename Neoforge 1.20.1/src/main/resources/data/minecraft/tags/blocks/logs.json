@@ -1,0 +1,127 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:burnt_log",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_log",
+      "required": false
+    },
+    {
+      "id": "burnt:stripped_burnt_log",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_stripped_log",
+      "required": false
+    },
+    {
+      "id": "burnt:blazing_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_oak_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_spruce_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_birch_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_acacia_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_jungle_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_dark_oak_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_mangrove_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stripped_cherry_log",
+      "required": false
+    },
+    {
+      "id": "burnt:ember_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_oak_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_dark_oak_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_spruce_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_jungle_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_birch_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mangrove_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_acacia_log",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_cherry_log",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_log_2",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_log_3",
+      "required": false
+    },
+    {
+      "id": "burnt:creeking_burnt_log",
+      "required": false
+    },
+    {
+      "id": "burnt:broken_burnt_log",
+      "required": false
+    },
+    {
+      "id": "burnt:stripped_broken_burnt_log",
+      "required": false
+    },
+    {
+      "id": "burnt:broken_blazing_log",
+      "required": false
+    },
+    {
+      "id": "burnt:broken_blazing_log_2",
+      "required": false
+    },
+    {
+      "id": "burnt:stripped_broken_burnt_log_2",
+      "required": false
+    },
+    "burnt:sooty_stripped_pale_oak_log",
+    "burnt:sooty_pale_oak_log"
+  ]
+}

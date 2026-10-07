@@ -1,0 +1,44 @@
+{
+  "replace": false,
+  "values": [
+    "burnt:burnt_wall",
+    "burnt:ember_wall",
+    "burnt:smoldering_wall",
+    {
+      "id": "burnt:sooty_andesite_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_brick_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_cobblestone_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_diorite_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_granite_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_cobblestone_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_stone_brick_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mud_brick_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone_brick_wall",
+      "required": false
+    }
+  ]
+}

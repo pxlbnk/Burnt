@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:stripped_burnt_log",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_wood",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_log",
+      "required": false
+    },
+    {
+      "id": "burnt:stripped_burnt_wood",
+      "required": false
+    },
+    {
+      "id": "burnt:ember_log",
+      "required": false
+    },
+    "burnt:ember_hollow_log",
+    "burnt:burnt_hollow_log"
+  ]
+}

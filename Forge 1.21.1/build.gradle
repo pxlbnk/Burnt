@@ -1,0 +1,145 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '[6.0,7)'
+    id 'org.spongepowered.mixin' version '0.7.38'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+// Co-locate compiled classes and resources in the same output directory so that
+// Forge's dev-mode mod scanner sees them as ONE mod file. Without this, Forge
+// 52.x scans build/resources/main and build/classes/java/main as separate mod
+// files; mods.toml is in resources, @Mod class is in classes, neither finds the other.
+sourceSets.main {
+    output.resourcesDir = java.classesDirectory
+}
+
+minecraft {
+    mappings channel: 'official', version: '1.21.1'
+
+    copyIdeResources = true
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            mods {
+                burnt {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            args '--nogui'
+            mods {
+                burnt {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+mixin {
+    add sourceSets.main, 'burnt-refmap.json'
+    config 'burnt.mixins.json'
+    config 'burnt.compat.mixins.json'
+}
+
+repositories {
+    maven { url = 'https://maven.minecraftforge.net' }
+    maven { url = 'https://libraries.minecraft.net' }
+    maven { url 'https://maven.shedaniel.me/' }  // Cloth Config
+    maven {
+        name = "nonamecrackers2Maven"
+        url = "https://maven.nonamecrackers2.dev/releases"  // Simple Clouds API
+    }
+    mavenCentral()
+}
+
+// Force all ASM modules to the same version to avoid module-path conflicts.
+configurations.all {
+    resolutionStrategy {
+        force 'org.ow2.asm:asm:9.7'
+        force 'org.ow2.asm:asm-commons:9.7'
+        force 'org.ow2.asm:asm-tree:9.7'
+        force 'org.ow2.asm:asm-analysis:9.7'
+        force 'org.ow2.asm:asm-util:9.7'
+    }
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:1.21.1-${forge_version}"
+
+    // Cloth Config (Forge variant)
+    implementation "me.shedaniel.cloth:cloth-config-forge:${cloth_config_version}"
+
+    // JSR-305 annotations (@Nullable etc.)
+    compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
+
+    // Mixin annotation processor (required by MixinGradle)
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    // Weather2 — no Forge 1.21.1 build; use NeoForge variant compileOnly for type resolution
+    compileOnly files('libs/weather2-neoforge-1.21.0-2.8.6.jar')
+
+    // Simple Clouds API — no Forge 1.21.1 build; use NeoForge variant compileOnly for type resolution
+    compileOnly "nonamecrackers2:simplecloudsapi-neoforge:1.4-1.21.1"
+
+    // Serene Seasons — use NeoForge variant compileOnly for type resolution
+    compileOnly files('libs/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar')
+
+    // AdPother — no Forge 1.21.1 build; use NeoForge variant compileOnly for type resolution
+    compileOnly files('libs/AdPother-1.21.1-9.1.7.0-NeoForge-build.0768.jar')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 21
+}
+
+
+// Substitute ${mod_version} (and other gradle.properties values) inside mods.toml
+// at build time so the jar's embedded version always matches the gradle one.
+processResources {
+    inputs.property 'mod_version', mod_version
+    inputs.property 'mod_id',      mod_id
+    filesMatching(['META-INF/mods.toml', 'META-INF/neoforge.mods.toml']) {
+        expand mod_version: mod_version, mod_id: mod_id
+    }
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}" }
+    }
+    // Do NOT add the MixinGradle refmap (build/tmp/compileJava/burnt-refmap.json) to this jar.
+    // Forge 1.21.1 (like 1.20.6+) runs Mojang official mappings in production — the refmap's
+    // SRG data makes every @Inject resolve to m_XXXXX_ names that don't exist at runtime,
+    // hard-crashing the server (verified 2026-07-23 on a production Forge 52.1.14 server).
+    // With no refmap in the jar, Mixin falls back to the source-level Mojmap names, which match.
+    manifest {
+        attributes([
+            'Specification-Title'   : 'burnt',
+            'Specification-Vendor'  : 'Pixelbank',
+            'Specification-Version' : '1',
+            'Implementation-Title'  : project.name,
+            'Implementation-Version': project.jar.archiveVersion,
+            'Implementation-Vendor' : 'Pixelbank',
+            'MixinConfigs'          : 'burnt.mixins.json,burnt.compat.mixins.json',
+        ])
+    }
+}

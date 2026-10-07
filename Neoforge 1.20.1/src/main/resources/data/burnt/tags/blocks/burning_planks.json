@@ -1,0 +1,29 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:smoldering_planks_3",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_planks_2",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_planks_4",
+      "required": false
+    },
+    {
+      "id": "burnt:blazing_planks",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_planks",
+      "required": false
+    },
+    {
+      "id": "burnt:ember_planks",
+      "required": false
+    }
+  ]
+}

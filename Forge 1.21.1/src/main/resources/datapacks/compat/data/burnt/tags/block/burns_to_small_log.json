@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "natures_spirit:joshua_log",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:stripped_joshua_log",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:small_oak_log",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:stripped_small_oak_log",
+      "required": false
+    }
+  ]
+}

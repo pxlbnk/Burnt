@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:smoldering_leaves_5",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_leaves_3",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_leaves_4",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_leaves",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_leaves_2",
+      "required": false
+    }
+  ]
+}

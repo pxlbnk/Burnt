@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:wood_fire_3",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_2",
+      "required": false
+    },
+    {
+      "id": "burnt:tall_flames",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_8",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_5",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_4",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_7",
+      "required": false
+    },
+    {
+      "id": "burnt:wood_fire_6",
+      "required": false
+    }
+  ]
+}

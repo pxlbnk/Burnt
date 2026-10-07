@@ -1,0 +1,441 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomesoplenty:dead_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:empyreal_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:jacaranda_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:magic_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:mahogany_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:maple_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:origin_oak_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:palm_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pine_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:redwood_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:umbran_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:aspen_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:baobab_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_enchanted_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cika_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:cypress_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ebony_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:fir_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:florus_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:green_enchanted_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:holly_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:ironwood_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:jacaranda_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:mahogany_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:maple_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palm_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palo_verde_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pine_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:rainbow_eucalyptus_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:redwood_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:sakura_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:skyris_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:spirit_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:white_mangrove_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:willow_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:witch_hazel_fence_gate",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:zelkova_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:aspen_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:baobab_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:blue_enchanted_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:cika_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:cypress_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:ebony_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:fir_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:florus_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:green_enchanted_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:holly_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:ironwood_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:jacaranda_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:mahogany_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:maple_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:palm_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:palo_verde_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:pine_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:rainbow_eucalyptus_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:redwood_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:sakura_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:skyris_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:spirit_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:white_mangrove_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:willow_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:witch_hazel_fence_gate",
+      "required": false
+    },
+    {
+      "id": "byg:zelkova_fence_gate",
+      "required": false
+    },
+    {
+      "id": "quark:ancient_fence_gate",
+      "required": false
+    },
+    {
+      "id": "quark:azalea_fence_gate",
+      "required": false
+    },
+    {
+      "id": "quark:blossom_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/acacia_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/ash_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/aspen_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/birch_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/blackwood_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/chestnut_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/douglas_fir_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/hickory_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/kapok_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/mangrove_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/maple_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/oak_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/palm_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/pine_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/rosewood_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sequoia_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/spruce_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/sycamore_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/white_cedar_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/planks/willow_fence_gate",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fence_gate/willow",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:rope_fence_gate",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#minecraft:non_flammable_wood",
+      "required": false
+    },
+    {
+      "id": "twilightforest:cracked_towerwood",
+      "required": false
+    },
+    {
+      "id": "twilightforest:encased_towerwood",
+      "required": false
+    },
+    {
+      "id": "twilightforest:infested_towerwood",
+      "required": false
+    },
+    {
+      "id": "twilightforest:mossy_towerwood",
+      "required": false
+    },
+    {
+      "id": "twilightforest:tower_wood",
+      "required": false
+    },
+    {
+      "id": "twilightforest:tower_wood_cracked",
+      "required": false
+    },
+    {
+      "id": "twilightforest:tower_wood_encased",
+      "required": false
+    },
+    {
+      "id": "twilightforest:tower_wood_infested",
+      "required": false
+    },
+    {
+      "id": "twilightforest:tower_wood_mossy",
+      "required": false
+    },
+    {
+      "id": "twilightforest:towerwood",
+      "required": false
+    },
+    {
+      "id": "tfc:pit_kiln",
+      "required": false
+    },
+    {
+      "id": "tfc:log_pile",
+      "required": false
+    },
+    {
+      "id": "tfc:burning_log_pile",
+      "required": false
+    },
+    {
+      "id": "tfc:charcoal_pile",
+      "required": false
+    },
+    {
+      "id": "tfc:charcoal_forge",
+      "required": false
+    },
+    {
+      "id": "tfc:firepit",
+      "required": false
+    },
+    {
+      "id": "tfc:placed_item",
+      "required": false
+    }
+  ]
+}

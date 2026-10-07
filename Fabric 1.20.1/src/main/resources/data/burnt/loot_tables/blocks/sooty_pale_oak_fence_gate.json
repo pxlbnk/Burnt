@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "burnt:blocks/sooty_pale_oak_fence_gate",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "burnt:drops/pale_oak_fence_gate",
+          "expand": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "burnt:blocks/sooty_stripped_pale_oak_log",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "burnt:drops/stripped_pale_oak_log",
+          "expand": true
+        }
+      ]
+    }
+  ]
+}

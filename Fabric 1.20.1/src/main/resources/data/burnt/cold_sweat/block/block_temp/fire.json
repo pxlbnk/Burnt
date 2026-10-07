@@ -1,0 +1,25 @@
+{
+  "required_mods": ["cold_sweat"],
+  "block": {
+    "blocks": [
+      "burnt:firestarter",
+      "burnt:fire_set_block",
+      "burnt:wood_fire_9",
+      "burnt:tall_grass_fire",
+      "burnt:double_tall_grass_fire",
+      "burnt:grass_flames",
+      "burnt:copper_fire",
+      "burnt:copper_fire_2",
+      "burnt:copper_fire_3",
+      "burnt:copper_fire_4",
+      "burnt:copper_fire_5",
+      "burnt:copper_fire_6",
+      "burnt:copper_fire_7"
+    ]
+  },
+  "temperature": 15,
+  "units": "f",
+  "range": 7,
+  "fade": true,
+  "max_effect": 45
+}

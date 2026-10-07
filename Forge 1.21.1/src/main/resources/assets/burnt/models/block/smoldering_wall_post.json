@@ -1,0 +1,5 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": { "wall": "burnt:block/smoldering_planks_3", "particle": "burnt:block/smoldering_planks_3" },
+  "render_type": "solid"
+}

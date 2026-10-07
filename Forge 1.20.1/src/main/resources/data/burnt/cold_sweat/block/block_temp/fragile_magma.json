@@ -1,0 +1,13 @@
+{
+  "required_mods": ["cold_sweat"],
+  "block": {
+    "blocks": [
+      "burnt:fragile_magma"
+    ]
+  },
+  "temperature": 12,
+  "units": "f",
+  "range": 3,
+  "fade": true,
+  "max_effect": 48
+}

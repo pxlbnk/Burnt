@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_all",
+    "render_type": "solid",
+    "textures": {
+        "all": "burnt:block/burnt_planks"
+    }
+}

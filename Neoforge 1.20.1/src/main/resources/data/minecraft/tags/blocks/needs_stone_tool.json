@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:double_fallen_burnt_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:fallen_burnt_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_coal",
+      "required": false
+    }
+  ]
+}

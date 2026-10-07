@@ -1,0 +1,46 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:smoldering_jungle_trapdoor",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_oak_trapdoor",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_birch_trapdoor",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_cherry_trapdoor",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_dark_oak_trapdoor",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_mangrove_trapdoor",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_spruce_trapdoor",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_acacia_trapdoor",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_trapdoor",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_trapdoor",
+      "required": false
+    },
+    "burnt:smoldering_pale_oak_trapdoor"
+  ]
+}

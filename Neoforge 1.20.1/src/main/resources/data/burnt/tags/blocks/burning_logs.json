@@ -1,0 +1,41 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:blazing_log",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_log_2",
+      "required": false
+    },
+    {
+      "id": "burnt:broken_blazing_log",
+      "required": false
+    },
+    {
+      "id": "burnt:broken_blazing_log_2",
+      "required": false
+    },
+    {
+      "id": "burnt:small_smoldering_log",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_log",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_stripped_log",
+      "required": false
+    },
+    {
+      "id": "burnt:ember_log",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_log_3",
+      "required": false
+    }
+  ]
+}

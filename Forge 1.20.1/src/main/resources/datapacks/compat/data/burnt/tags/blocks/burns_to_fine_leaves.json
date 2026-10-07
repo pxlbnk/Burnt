@@ -1,0 +1,353 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomesoplenty:cypress_leaves",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:fir_needles",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:pine_needles",
+      "required": false
+    },
+    {
+      "id": "biomesoplenty:willow_leaves",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:araucaria_leaves",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:blue_spruce_leaves",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:fir_leaves",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:flowering_palo_verde_leaves",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:orange_spruce_leaves",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:palo_verde_leaves",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:pine_leaves",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:red_spruce_leaves",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:willow_leaves",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:yellow_spruce_leaves",
+      "required": false
+    },
+    {
+      "id": "byg:araucaria_leaves",
+      "required": false
+    },
+    {
+      "id": "byg:blue_spruce_leaves",
+      "required": false
+    },
+    {
+      "id": "byg:fir_leaves",
+      "required": false
+    },
+    {
+      "id": "byg:flowering_palo_verde_leaves",
+      "required": false
+    },
+    {
+      "id": "byg:orange_spruce_leaves",
+      "required": false
+    },
+    {
+      "id": "byg:palo_verde_leaves",
+      "required": false
+    },
+    {
+      "id": "byg:pine_leaves",
+      "required": false
+    },
+    {
+      "id": "byg:red_spruce_leaves",
+      "required": false
+    },
+    {
+      "id": "byg:willow_leaves",
+      "required": false
+    },
+    {
+      "id": "byg:yellow_spruce_leaves",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:acacia_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:azalea_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:birch_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:cherry_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:dark_oak_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:flowering_azalea_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:jungle_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:mangrove_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:oak_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "immersive_weathering:spruce_leaf_pile",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:cedar_leaves",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:fir_leaves",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:frosty_fir_leaves",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:frosty_redwood_leaves",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:larch_leaves",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:redwood_leaves",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:sugi_leaves",
+      "required": false
+    },
+    {
+      "id": "natures_spirit:willow_leaves",
+      "required": false
+    },
+    {
+      "id": "nomansland:frosted_leaves",
+      "required": false
+    },
+    {
+      "id": "nomansland:pine_leaves",
+      "required": false
+    },
+    {
+      "id": "nomansland:willow_leaves",
+      "required": false
+    },
+    {
+      "id": "quark:acacia_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:ancient_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:azalea_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:birch_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:blue_blossom_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:cherry_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:dark_oak_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:jungle_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:lavender_blossom_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:mangrove_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:oak_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:orange_blossom_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:red_blossom_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:spruce_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "quark:yellow_blossom_leaf_carpet",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:cypress_leaves",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:dead_pine_leaves",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:golden_larch_leaves",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:larch_leaves",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:pine_leaves",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:redwood_leaves",
+      "required": false
+    },
+    {
+      "id": "regions_unexplored:willow_leaves",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/fallen_leaves/willow",
+      "required": false
+    }
+  ]
+}

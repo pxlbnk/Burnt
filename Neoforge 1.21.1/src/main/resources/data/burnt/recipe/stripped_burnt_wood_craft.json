@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "burnt",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "burnt:stripped_burnt_log"
+    }
+  },
+  "result": {
+    "id": "burnt:stripped_burnt_wood",
+    "count": 3
+  }
+}

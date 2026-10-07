@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "biomeswevegone:lush_grass_block",
+      "required": false
+    },
+    {
+      "id": "byg:lush_grass_block",
+      "required": false
+    }
+  ]
+}

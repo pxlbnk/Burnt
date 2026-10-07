@@ -1,0 +1,114 @@
+plugins {
+    id 'net.neoforged.gradle.userdev' version '7.0.145'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+runs {
+    configureEach {
+        systemProperty 'forge.logging.markers', 'REGISTRIES'
+        systemProperty 'forge.logging.console.level', 'debug'
+        modSource project.sourceSets.main
+    }
+
+    client { }
+
+    server {
+        programArgument '--nogui'
+    }
+}
+
+repositories {
+    maven { url 'https://maven.shedaniel.me/' }  // Cloth Config
+    maven {
+        name = "nonamecrackers2Maven"
+        url = "https://maven.nonamecrackers2.dev/releases"  // Simple Clouds API
+    }
+}
+
+// Force all ASM modules to the same version so the module-path / class-path
+// conflict ("Module ... was already on the JVMs module path") doesn't occur.
+configurations.all {
+    resolutionStrategy {
+        force 'org.ow2.asm:asm:9.7'
+        force 'org.ow2.asm:asm-commons:9.7'
+        force 'org.ow2.asm:asm-tree:9.7'
+        force 'org.ow2.asm:asm-analysis:9.7'
+        force 'org.ow2.asm:asm-util:9.7'
+    }
+}
+
+dependencies {
+    implementation "net.neoforged:neoforge:${neoforge_version}"
+
+    // Cloth Config (NeoForge variant)
+    implementation "me.shedaniel.cloth:cloth-config-neoforge:${cloth_config_version}"
+
+    // JSR-305 annotations (@Nullable etc.)
+    compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
+
+    // Weather2 — optional compat, compile-only (not shipped with Burnt)
+    compileOnly files('libs/weather2-neoforge-1.21.0-2.8.6.jar')
+
+    // Simple Clouds API — optional compat, compile-only (API is bundled inside the Simple Clouds jar)
+    compileOnly "nonamecrackers2:simplecloudsapi-neoforge:1.4-1.21.1"
+
+    // Serene Seasons — optional compat, compile-only (not shipped with Burnt)
+    compileOnly files('libs/SereneSeasons-neoforge-1.21.1-10.1.0.3.jar')
+
+    // AdPother — optional compat, compile-only (not shipped with Burnt)
+    compileOnly files('libs/AdPother-1.21.1-9.1.7.0-NeoForge-build.0768.jar')
+
+    // Create — optional compat, compile-only (drop the Create NeoForge 1.21.1 jar
+    // into libs/ — filename starting with "create" or "Create"). Targets Create 6.0.x.
+    compileOnly fileTree(dir: 'libs', include: ['create-*.jar', 'Create-*.jar'])
+
+    // Sable — optional compat, compile-only (physics mod that wraps Create
+    // contraptions as physics sub-levels). Needs both the main jar and the
+    // sable-companion-common jar (which holds Pose3d / BoundingBox3d math types
+    // and ships as JarInJar inside the main jar — copy it out into libs/).
+    compileOnly fileTree(dir: 'libs', include: ['sable-neoforge-*.jar', 'sable-companion-*.jar'])
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 21
+}
+
+
+// Substitute ${mod_version} (and other gradle.properties values) inside mods.toml
+// at build time so the jar's embedded version always matches the gradle one.
+processResources {
+    inputs.property 'mod_version', mod_version
+    inputs.property 'mod_id',      mod_id
+    filesMatching(['META-INF/mods.toml', 'META-INF/neoforge.mods.toml']) {
+        expand mod_version: mod_version, mod_id: mod_id
+    }
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}" }
+    }
+    manifest {
+        attributes([
+            'Specification-Title'   : 'burnt',
+            'Specification-Vendor'  : 'Pixelbank',
+            'Specification-Version' : '1',
+            'Implementation-Title'  : project.name,
+            'Implementation-Version': project.jar.archiveVersion,
+            'Implementation-Vendor' : 'Pixelbank',
+        ])
+    }
+}

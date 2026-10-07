@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "#minecraft:planks",
+    "#minecraft:wooden_slabs",
+    "#minecraft:wooden_stairs",
+    "#minecraft:wooden_fences",
+    "#minecraft:fence_gates",
+    "#burnt:burns_to_smoldering_planks",
+    "#burnt:burns_to_smoldering_slabs",
+    "#burnt:burns_to_smoldering_stairs",
+    "#burnt:burns_to_smoldering_fences",
+    "#burnt:burns_to_smoldering_fence_gates"
+  ]
+}

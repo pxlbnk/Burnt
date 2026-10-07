@@ -1,0 +1,169 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:sooty_mud_brick_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mud_brick_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mud_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mud_bricks",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_granite_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_granite_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_granite_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_andesite_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_andesite_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_andesite_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_diorite_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_diorite_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_diorite_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_chiseled_stone_bricks",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_granite",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_andesite",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_diorite",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_brick_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_stone_brick_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone_brick_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_cobblestone_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_cobblestone_slab",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_stone_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone_brick_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_cobblestone_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_cobblestone_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_stone_brick_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_cobblestone_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone_brick_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_brick_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_cobblestone_wall",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_bricks",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_stone_bricks",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_stone_bricks",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_mossy_cobblestone",
+      "required": false
+    },
+    {
+      "id": "burnt:sooty_cobblestone",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_coal",
+      "required": false
+    }
+  ]
+}

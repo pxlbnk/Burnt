@@ -1,0 +1,33 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:copper_fire",
+      "required": false
+    },
+    {
+      "id": "burnt:copper_fire_2",
+      "required": false
+    },
+    {
+      "id": "burnt:copper_fire_3",
+      "required": false
+    },
+    {
+      "id": "burnt:copper_fire_4",
+      "required": false
+    },
+    {
+      "id": "burnt:copper_fire_5",
+      "required": false
+    },
+    {
+      "id": "burnt:copper_fire_6",
+      "required": false
+    },
+    {
+      "id": "burnt:copper_fire_7",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:smoldering_leaves",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_leaves",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_log",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_log",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_log_smooth",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_log_broken",
+      "required": false
+    },
+    {
+      "id": "burnt:small_smoldering_log",
+      "required": false
+    },
+    {
+      "id": "burnt:burning_grass",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_grass",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_dirt",
+      "required": false
+    },
+    {
+      "id": "burnt:small_burnt_log",
+      "required": false
+    }
+  ]
+}

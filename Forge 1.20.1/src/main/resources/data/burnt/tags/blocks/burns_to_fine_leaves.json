@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "byg:peat",
+      "required": false
+    },
+    {
+      "id": "biomeswevegone:peat",
+      "required": false
+    }
+  ]
+}

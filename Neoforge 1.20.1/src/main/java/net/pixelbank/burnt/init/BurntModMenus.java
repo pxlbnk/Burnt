@@ -1,0 +1,54 @@
+package net.pixelbank.burnt.init;
+
+import net.pixelbank.burnt.world.inventory.BurntBarrelGUIMenu;
+import net.pixelbank.burnt.network.MenuStateUpdateMessage;
+import net.pixelbank.burnt.BurntMod;
+
+import net.minecraft.core.registries.Registries;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.flag.FeatureFlags;
+import net.minecraft.world.inventory.MenuType;
+import net.minecraft.world.inventory.Slot;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.network.PacketDistributor;
+import net.minecraftforge.registries.RegisterEvent;
+
+import java.util.Map;
+
+public class BurntModMenus {
+
+	public static MenuType<BurntBarrelGUIMenu> BURNT_BARREL_GUI;
+
+	public static void register(IEventBus bus) {
+		bus.addListener((RegisterEvent event) -> {
+			event.register(Registries.MENU, helper -> {
+			// Client-side factory uses the no-extra-data constructor (server passes items via Container sync)
+				helper.register(new ResourceLocation(BurntMod.MODID, "burnt_barrel_gui"),
+					BURNT_BARREL_GUI = new MenuType<>((id, inv) -> new BurntBarrelGUIMenu(id, inv), FeatureFlags.DEFAULT_FLAGS));
+			});
+		});
+	}
+
+	public interface MenuAccessor {
+		Map<String, Object> getMenuState();
+
+		Map<Integer, Slot> getSlots();
+
+		default void sendMenuStateUpdate(Player player, int elementType, String name, Object elementState, boolean needClientUpdate) {
+			getMenuState().put(elementType + ":" + name, elementState);
+			if (needClientUpdate && player instanceof ServerPlayer sp) {
+				net.pixelbank.burnt.network.BurntNetwork.sendToPlayer(sp, new MenuStateUpdateMessage(elementType, name, elementState));
+			}
+		}
+
+		default <T> T getMenuState(int elementType, String name, T defaultValue) {
+			try {
+				return (T) getMenuState().getOrDefault(elementType + ":" + name, defaultValue);
+			} catch (ClassCastException e) {
+				return defaultValue;
+			}
+		}
+	}
+}

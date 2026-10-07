@@ -1,0 +1,87 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:burnt_door",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_acacia_door",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_bamboo_door",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_birch_door",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_cherry_door",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_dark_oak_door",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_jungle_door",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_mangrove_door",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_oak_door",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_spruce_door",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_mangrove_door",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_door",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_bamboo_door",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_dark_oak_door",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_spruce_door",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_acacia_door",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_birch_door",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_jungle_door",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_oak_door",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_cherry_door",
+      "required": false
+    },
+    "burnt:burnt_pale_oak_door",
+    "burnt:smoldering_pale_oak_door"
+  ]
+}

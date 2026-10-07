@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "burnt",
+  "version": "${version}",
+  "name": "Burnt",
+  "description": "A Vanilla fire enhancing mod",
+  "authors": [
+    "Pixelbank"
+  ],
+  "contact": {
+    "homepage": "https://discord.com/invite/NUqTwsfTzn"
+  },
+  "license": "All Rights Reserved",
+  "icon": "assets/burnt/logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.pixelbank.burnt.BurntMod"
+    ],
+    "client": [
+      "net.pixelbank.burnt.BurntModClient"
+    ],
+    "modmenu": [
+      "net.pixelbank.burnt.client.ModMenuApiImpl"
+    ]
+  },
+  "mixins": [
+    "burnt.mixins.json"
+  ],
+  "accessWidener": "burnt.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "fabric-api": "*",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "cloth-config": "*"
+  },
+  "suggests": {
+    "modmenu": "*",
+    "immersivewind": "*"
+  }
+}

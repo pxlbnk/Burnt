@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:ember_fence_gate",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_fencegate",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_bamboo_fencegate",
+      "required": false
+    }
+  ]
+}

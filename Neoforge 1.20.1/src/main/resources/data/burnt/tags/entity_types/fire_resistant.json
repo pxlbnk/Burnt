@@ -1,0 +1,105 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "chest_minecart",
+      "required": false
+    },
+    {
+      "id": "ghast",
+      "required": false
+    },
+    {
+      "id": "turtle",
+      "required": false
+    },
+    {
+      "id": "ender_pearl",
+      "required": false
+    },
+    {
+      "id": "lightning_bolt",
+      "required": false
+    },
+    {
+      "id": "furnace_minecart",
+      "required": false
+    },
+    {
+      "id": "blaze",
+      "required": false
+    },
+    {
+      "id": "minecart",
+      "required": false
+    },
+    {
+      "id": "small_fireball",
+      "required": false
+    },
+    {
+      "id": "spawner_minecart",
+      "required": false
+    },
+    {
+      "id": "burnt:spark",
+      "required": false
+    },
+    {
+      "id": "fireball",
+      "required": false
+    },
+    {
+      "id": "wind_charge",
+      "required": false
+    },
+    {
+      "id": "ender_dragon",
+      "required": false
+    },
+    {
+      "id": "falling_block",
+      "required": false
+    },
+    {
+      "id": "tnt_minecart",
+      "required": false
+    },
+    {
+      "id": "end_crystal",
+      "required": false
+    },
+    {
+      "id": "burnt:spray",
+      "required": false
+    },
+    {
+      "id": "eye_of_ender",
+      "required": false
+    },
+    {
+      "id": "hopper_minecart",
+      "required": false
+    },
+    {
+      "id": "iron_golem",
+      "required": false
+    },
+    {
+      "id": "snowball",
+      "required": false
+    },
+    {
+      "id": "command_block_minecart",
+      "required": false
+    },
+    {
+      "id": "burnt:fireball",
+      "required": false
+    },
+    {
+      "id": "magma_cube",
+      "required": false
+    }
+  ]
+}

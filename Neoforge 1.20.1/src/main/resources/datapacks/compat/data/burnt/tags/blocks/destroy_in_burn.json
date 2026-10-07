@@ -1,0 +1,781 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "farmersdelight:apple_pie",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:chocolate_pie",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:gleaming_salad_block",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:honey_glazed_ham_block",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:pumpkin_pie",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:rice_roll_medley_block",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:roast_chicken_block",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:rope",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:safety_net",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:shepherds_pie_block",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:stuffed_pumpkin_block",
+      "required": false
+    },
+    {
+      "id": "farmersdelight:sweet_berry_cheesecake",
+      "required": false
+    },
+    {
+      "id": "simulated:rope_connector",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/alfalfa",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/barley",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/beet",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/cabbage",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/canola",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/carrot",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/cassava",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/garlic",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/green_bean",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/jute",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/lentil",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/maize",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/melon",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/oat",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/onion",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/papyrus",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/peanut",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/potato",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/pumpkin",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/radish",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/red_bell_pepper",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/rice",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/rye",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/soybean",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/squash",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/sugarcane",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/tomato",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/wheat",
+      "required": false
+    },
+    {
+      "id": "tfc:dead_crop/yellow_bell_pepper",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/allium",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/anthurium",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/azalea",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/banana_plant",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/black_orchid",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/blood_lily",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/blue_ginger",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/blue_orchid",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/buttercup",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/butterfly_milkweed",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/calendula",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/canna",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/cobblestone_lichen",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/cornflower",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/cycad",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/dandelion",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/dead_banana_plant",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/dead_bush",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/desert_flame",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/edelweiss",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/elegant_sunburst_lichen",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/fan_palm",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/flame_vine",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/flame_vine_plant",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/foxglove",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/goldenrod",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/grape_hyacinth",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/guzmania",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/hanging_vines",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/hanging_vines_plant",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/heather",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/heliconia",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/hibiscus",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/houstonia",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/ivy",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/jungle_vines",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/kangaroo_paw",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/kinnikinnick",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/labrador_tea",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/liana",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/liana_plant",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/lilac",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/lily_of_the_valley",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/maiden_pink",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/marigold",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/meads_milkweed",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/morning_glory",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/moss",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/mountain_hullwort",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/nasturtium",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/oxeye_daisy",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/palash",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/penwortel",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/perovskia",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/philodendron",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/poppy",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/primrose",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/pulsatilla",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/qantu",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/ramirezella",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/ramunda",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/red_sealing_wax_palm",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/reindeer_lichen",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/rose",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/sacred_datura",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/sagebrush",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/sapphire_tower",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/sea_lavender",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/shawiash",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/silver_bromeliad",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/silver_spurflower",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/snapdragon_pink",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/snapdragon_red",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/snapdragon_white",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/snapdragon_yellow",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/spanish_moss",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/spanish_moss_plant",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/strelitzia",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/sunflower",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/tank_bromeliad",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/toquilla_palm",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/trillium",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/tropical_milkweed",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/tulip_orange",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/tulip_pink",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/tulip_red",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/tulip_white",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/vriesea",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/water_canna",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/yellow_saxifrage",
+      "required": false
+    },
+    {
+      "id": "tfc:plant/yucca",
+      "required": false
+    },
+    {
+      "id": "tfc:tree_roots",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/horizontal_support/willow",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/twig/willow",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/acacia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/ash",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/aspen",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/birch",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/blackwood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/chestnut",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/douglas_fir",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/hickory",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/kapok",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/mangrove",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/maple",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/oak",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/palm",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/pine",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/rosewood",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/sequoia",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/spruce",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/sycamore",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/white_cedar",
+      "required": false
+    },
+    {
+      "id": "tfc:wood/vertical_support/willow",
+      "required": false
+    }
+  ]
+}

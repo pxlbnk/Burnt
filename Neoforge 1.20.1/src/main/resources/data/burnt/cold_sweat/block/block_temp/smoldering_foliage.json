@@ -1,0 +1,26 @@
+{
+  "required_mods": ["cold_sweat"],
+  "block": {
+    "blocks": [
+      "burnt:smoldering_oak_leaves",
+      "burnt:smoldering_birch_leaves",
+      "burnt:smoldering_spruce_leaves",
+      "burnt:smoldering_jungle_leaves",
+      "burnt:smoldering_acacia_leaves",
+      "burnt:smoldering_dark_oak_leaves",
+      "burnt:smoldering_cherry_leaves",
+      "burnt:smoldering_pale_oak_leaves",
+      "burnt:smoldering_mangrove_leaves",
+      "burnt:blast_leaves",
+      "burnt:smoldering_azalea",
+      "burnt:smoldering_cave_vines",
+      "burnt:smoldering_cave_vines_plant",
+      "burnt:smoldering_mangrove_roots"
+    ]
+  },
+  "temperature": 10,
+  "units": "f",
+  "range": 5,
+  "fade": true,
+  "max_effect": 30
+}

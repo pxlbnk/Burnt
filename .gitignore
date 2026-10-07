@@ -1,0 +1,65 @@
+# What belongs in this repo
+#
+# Only the six loader/version source trees and the shared docs. Everything else in the
+# working folder - the Additions project, OLD/, BACKUP/, the dated backups, RELEASES/,
+# scratch folders - stays local. Top-level is an allowlist so nothing slips in by accident.
+/*
+!/.gitignore
+!/README.md
+!/INTEGRATION.md
+!/Fabric 1.20.1/
+!/Fabric 1.21.1/
+!/Forge 1.20.1/
+!/Forge 1.21.1/
+!/Neoforge 1.20.1/
+!/Neoforge 1.21.1/
+
+# Build output and local state, per tree
+build/
+.gradle/
+run/
+runs/
+runClient/
+runServer/
+out/
+bin/
+*.iml
+.idea/
+.eclipse/
+.settings/
+
+# Reference copies of OTHER PEOPLE'S code, extracted at each tree's root for writing the
+# reflection bridges against. Not ours to redistribute, and not build inputs - the build
+# takes these from libs/*.jar via compileOnly. The paths are anchored one level down so they
+# cannot touch src/main/java/net.
+/*/net/
+/*/weather2/
+/*/sereneseasons/
+
+# Third-party mod jars used as compileOnly dependencies.
+# Not ours to redistribute - see README for which jars each tree expects in its libs/.
+libs/
+
+# Dated snapshot folders left by earlier edit passes, at root or nested in a tree.
+# Git history is the backup now.
+_*backup*/
+
+# Empty 0-byte files left by a stray shell redirect
+/*/Compilation
+/*/Task
+
+# Internal dev notes - port-progress trackers, conversion references and the AI task prompts
+# used during the Fabric/NeoForge conversions. Kept on disk, not in the repo: they describe
+# process rather than the mod, and the PROMPT files contain local filesystem paths.
+# INTEGRATION.md is deliberately NOT here - it is written for outside mod and datapack authors.
+/*/README.md
+/*/NEOFORGE_CONVERSION.md
+/*/NEOFORGE_CONVERSION_PROMPT.md
+
+# Claude Code session state
+.claude/
+
+# OS and editor noise
+.DS_Store
+*.swp
+*~

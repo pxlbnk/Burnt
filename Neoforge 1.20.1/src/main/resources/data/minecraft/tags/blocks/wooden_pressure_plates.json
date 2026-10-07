@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:burnt_bamboo_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_pressure_plate",
+      "required": false
+    }
+  ]
+}

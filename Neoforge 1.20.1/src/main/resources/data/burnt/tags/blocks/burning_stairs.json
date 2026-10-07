@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:blazing_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_stairs",
+      "required": false
+    },
+    {
+      "id": "burnt:ember_stairs",
+      "required": false
+    }
+  ]
+}

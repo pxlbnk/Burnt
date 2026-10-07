@@ -1,0 +1,125 @@
+plugins {
+    id 'net.minecraftforge.gradle' version '[6.0,7)'
+    id 'org.spongepowered.mixin' version '0.7.38'
+    id 'eclipse'
+    id 'idea'
+    id 'maven-publish'
+}
+
+version = project.mod_version
+group = project.maven_group
+
+base {
+    archivesName = project.archives_base_name
+}
+
+minecraft {
+    mappings channel: 'official', version: project.minecraft_version
+
+    accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
+
+    copyIdeResources = true
+
+    runs {
+        client {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            mods {
+                burnt {
+                    source sourceSets.main
+                }
+            }
+        }
+
+        server {
+            workingDirectory project.file('run')
+            property 'forge.logging.markers', 'REGISTRIES'
+            property 'forge.logging.console.level', 'debug'
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+            args '--nogui'
+            mods {
+                burnt {
+                    source sourceSets.main
+                }
+            }
+        }
+    }
+}
+
+mixin {
+    add sourceSets.main, 'burnt-refmap.json'
+    config 'burnt.mixins.json'
+    config 'burnt.compat.mixins.json'
+}
+
+repositories {
+    maven { url = 'https://maven.minecraftforge.net' }
+    maven { url = 'https://libraries.minecraft.net' }
+    maven { url = 'https://maven.shedaniel.me/' }
+    mavenCentral()
+}
+
+configurations.all {
+    resolutionStrategy {
+        force 'org.ow2.asm:asm:9.7'
+        force 'org.ow2.asm:asm-commons:9.7'
+        force 'org.ow2.asm:asm-tree:9.7'
+        force 'org.ow2.asm:asm-analysis:9.7'
+        force 'org.ow2.asm:asm-util:9.7'
+    }
+}
+
+dependencies {
+    minecraft "net.minecraftforge:forge:${minecraft_version}-${forge_version}"
+
+    // Cloth Config (Forge 1.20.1)
+    implementation "me.shedaniel.cloth:cloth-config-forge:${cloth_config_version}"
+
+    // JSR-305 annotations
+    compileOnly 'com.google.code.findbugs:jsr305:3.0.2'
+
+    // Mixin annotation processor
+    annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
+
+    // Compat-only (compile-time type resolution; not loaded at dev runtime by default)
+    compileOnly files('libs/weather2-1.20.1-2.8.3.jar')
+    compileOnly files('libs/simplecloudsapi-forge-1.4-1.20.1.jar')
+    compileOnly files('libs/SereneSeasons-forge-1.20.1-9.1.0.2.jar')
+    compileOnly files('libs/AdPother-1.20.1-8.1.43.0-build.2132.jar')
+}
+
+tasks.withType(JavaCompile).configureEach {
+    it.options.release = 17
+}
+
+
+// Substitute ${mod_version} (and other gradle.properties values) inside mods.toml
+// at build time so the jar's embedded version always matches the gradle one.
+processResources {
+    inputs.property 'mod_version', mod_version
+    inputs.property 'mod_id',      mod_id
+    filesMatching(['META-INF/mods.toml', 'META-INF/neoforge.mods.toml']) {
+        expand mod_version: mod_version, mod_id: mod_id
+    }
+}
+
+jar {
+    from("LICENSE") {
+        rename { "${it}_${project.base.archivesName.get()}" }
+    }
+    manifest {
+        attributes([
+            'Specification-Title'   : 'burnt',
+            'Specification-Vendor'  : 'Pixelbank',
+            'Specification-Version' : '1',
+            'Implementation-Title'  : project.name,
+            'Implementation-Version': project.jar.archiveVersion,
+            'Implementation-Vendor' : 'Pixelbank',
+            'MixinConfigs'          : 'burnt.mixins.json,burnt.compat.mixins.json',
+        ])
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smoking",
+  "group": "burnt",
+  "category": "food",
+  "experience": 1,
+  "cookingtime": 50,
+  "ingredient": {
+    "item": "minecraft:apple"
+  },
+  "result": "burnt:baked_apple"
+}

@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:charred_mycelium",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_grassy_sandy_d_irt",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_grassy_earthen_clay",
+      "required": false
+    },
+    {
+      "id": "burnt:semi_burnt_dirt",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_grass_start",
+      "required": false
+    },
+    {
+      "id": "burnt:recovering_grass",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_farmland_moist",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_farmland",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_path",
+      "required": false
+    },
+    {
+      "id": "burnt:smoldering_grass",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_dirt",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_grass",
+      "required": false
+    },
+    "burnt:smoldering_grass_slab",
+    "burnt:burnt_grass_slab",
+    "burnt:recovering_grass_slab",
+    "burnt:burnt_dirt_slab"
+  ]
+}

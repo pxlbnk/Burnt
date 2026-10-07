@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "small_fireball",
+      "required": false
+    },
+    {
+      "id": "burnt:spark",
+      "required": false
+    },
+    {
+      "id": "lightning_bolt",
+      "required": false
+    },
+    {
+      "id": "blaze",
+      "required": false
+    },
+    {
+      "id": "fireball",
+      "required": false
+    }
+  ]
+}

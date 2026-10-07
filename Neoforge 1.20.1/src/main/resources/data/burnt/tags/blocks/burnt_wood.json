@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "burnt:ember_wood",
+      "required": false
+    },
+    {
+      "id": "burnt:burnt_wood",
+      "required": false
+    }
+  ]
+}

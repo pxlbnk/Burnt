@@ -1,0 +1,9 @@
+{
+  "variants": {
+    "type=north": { "model": "burnt:block/ember_vertical_slab", "y": 0, "uvlock": true },
+    "type=south": { "model": "burnt:block/ember_vertical_slab", "y": 180, "uvlock": true },
+    "type=east": { "model": "burnt:block/ember_vertical_slab", "y": 90, "uvlock": true },
+    "type=west": { "model": "burnt:block/ember_vertical_slab", "y": 270, "uvlock": true },
+    "type=double": { "model": "burnt:block/ember_vertical_slab_double" }
+  }
+}
