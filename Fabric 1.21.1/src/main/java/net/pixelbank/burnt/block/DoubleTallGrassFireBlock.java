@@ -1,7 +1,7 @@
 package net.pixelbank.burnt.block;
 
 
-import net.pixelbank.burnt.procedures.LightSmokeParticlesProcedure;
+import net.pixelbank.burnt.procedures.TallGrassSmokeParticlesProcedure;
 import net.pixelbank.burnt.procedures.FireDamageProcedure;
 import net.pixelbank.burnt.procedures.DoubleTallGrassFireTickProcedure;
 import net.pixelbank.burnt.procedures.BurntTallGrassSnowballProcedure;
@@ -120,7 +120,7 @@ public class DoubleTallGrassFireBlock extends Block {
 	@Environment(EnvType.CLIENT)
 	public void animateTick(BlockState blockstate, Level world, BlockPos pos, RandomSource random) {
 		super.animateTick(blockstate, world, pos, random);
-		LightSmokeParticlesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		TallGrassSmokeParticlesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

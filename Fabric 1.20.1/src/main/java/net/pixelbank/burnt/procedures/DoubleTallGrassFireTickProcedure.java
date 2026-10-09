@@ -130,6 +130,11 @@ public class DoubleTallGrassFireTickProcedure {
 					}
 				}
 			}
+			{ // NOT gated on distant_plumes: long-range smoke must run with plumes off. Plumes gated inside.
+				if (Math.random() <= 0.2) {
+					SpawnSignalPlumeXYZProcedure.execute(world, x, y, z);
+				}
+			}
 		}
 	}
 }

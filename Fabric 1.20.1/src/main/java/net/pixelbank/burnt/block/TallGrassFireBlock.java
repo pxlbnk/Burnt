@@ -95,7 +95,7 @@ public class TallGrassFireBlock extends Block {
 	@Environment(EnvType.CLIENT)
 	public void animateTick(BlockState blockstate, Level world, BlockPos pos, RandomSource random) {
 		super.animateTick(blockstate, world, pos, random);
-		LightSmokeParticlesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		TallGrassSmokeParticlesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

@@ -99,6 +99,7 @@ public class SmolderingGrassBlock extends Block {
 	public void animateTick(BlockState blockstate, Level world, BlockPos pos, RandomSource random) {
 		super.animateTick(blockstate, world, pos, random);
 		GrassFlameParticlesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		LightSmokeParticlesProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

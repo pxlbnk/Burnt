@@ -35,7 +35,7 @@ public class FogParticle extends TextureSheetParticle {
 		super(world, x, y, z);
 		this.spriteSet = spriteSet;
 		this.setSize(0.2f, 0.2f);
-		this.quadSize *= 6f;
+		this.quadSize *= 9f; // 50% larger than the original 6f
 		this.lifetime = (int) Math.max(1, 120 + (this.random.nextInt(100) - 50));
 		this.gravity = -0.005f;
 		this.hasPhysics = false;
