@@ -44,6 +44,9 @@ dependencies {
 }
 
 processResources {
+    // Source art, not a game asset - keep the layered files in the repo but out of the jar.
+    exclude '**/*.psd'
+
     inputs.property "version", project.version
 
     filesMatching("fabric.mod.json") {

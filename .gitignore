@@ -7,6 +7,10 @@
 !/.gitignore
 !/README.md
 !/INTEGRATION.md
+
+# Promo screenshots for the CurseForge/Modrinth listings. One shared copy, deliberately
+# OUTSIDE every tree's src/main/resources so they are never packaged into the jars.
+!/promo/
 !/Fabric 1.20.1/
 !/Fabric 1.21.1/
 !/Forge 1.20.1/

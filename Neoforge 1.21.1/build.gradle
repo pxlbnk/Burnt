@@ -90,6 +90,9 @@ tasks.withType(JavaCompile).configureEach {
 // Substitute ${mod_version} (and other gradle.properties values) inside mods.toml
 // at build time so the jar's embedded version always matches the gradle one.
 processResources {
+    // Source art, not a game asset - keep the layered files in the repo but out of the jar.
+    exclude '**/*.psd'
+
     inputs.property 'mod_version', mod_version
     inputs.property 'mod_id',      mod_id
     filesMatching(['META-INF/mods.toml', 'META-INF/neoforge.mods.toml']) {
