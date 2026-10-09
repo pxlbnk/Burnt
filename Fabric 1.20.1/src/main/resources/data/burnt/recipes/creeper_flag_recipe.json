@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "acc",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "minecraft:creeper_head"
+    },
+    "c": {
+      "item": "minecraft:lime_wool"
+    }
+  },
+  "result": {
+    "item": "burnt:creeper_flag",
+    "count": 1
+  }
+}

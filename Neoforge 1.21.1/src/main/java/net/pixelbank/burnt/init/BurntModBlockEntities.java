@@ -46,7 +46,10 @@ public class BurntModBlockEntities {
 							BurntModBlocks.RED_FLAG,
 							BurntModBlocks.WHITE_FLAG,
 							BurntModBlocks.WIND_FLAG,
-							BurntModBlocks.YELLOW_FLAG
+							BurntModBlocks.YELLOW_FLAG,
+							BurntModBlocks.CREEPER_FLAG,
+							BurntModBlocks.WILDERNESS_FLAG,
+							BurntModBlocks.FIRE_FLAG
 					).build(null));
 		});
 	}

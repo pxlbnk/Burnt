@@ -546,5 +546,8 @@
   "block.burnt.recovering_grass_slab": "Burnt Grass Slab",
   "block.burnt.smoldering_moss_slab": "Smoldering Moss Slab",
   "block.burnt.burnt_moss_slab": "Burnt Moss Slab",
-  "block.burnt.burnt_dirt_slab": "Burnt Dirt Slab"
+  "block.burnt.burnt_dirt_slab": "Burnt Dirt Slab",
+  "block.burnt.creeper_flag": "Creeper Flag",
+  "block.burnt.wilderness_flag": "Wilderness Flag",
+  "block.burnt.fire_flag": "Fire Flag"
 }

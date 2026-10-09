@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "abc",
+    "acc",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:stick"
+    },
+    "b": {
+      "item": "minecraft:spruce_sapling"
+    },
+    "c": {
+      "item": "minecraft:yellow_wool"
+    }
+  },
+  "result": {
+    "id": "burnt:wilderness_flag",
+    "count": 1
+  }
+}

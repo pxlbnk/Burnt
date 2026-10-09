@@ -437,6 +437,9 @@ public class BurntModItems {
 	public static Item WIND_FLAG;
 	public static Item RAINBOW_FLAG;
 	public static Item PIRATE_FLAG;
+	public static Item CREEPER_FLAG;
+	public static Item WILDERNESS_FLAG;
+	public static Item FIRE_FLAG;
 	public static Item EMBER_PROJECTILE_ITEM;
 	// Terrain Slabs soil chain - see compat/TerrainSlabsBridge.
 	public static Item SMOLDERING_GRASS_SLAB;
@@ -874,6 +877,9 @@ public class BurntModItems {
 				helper.register(new ResourceLocation(BurntMod.MODID, "wind_flag"), WIND_FLAG = new BlockItem(BurntModBlocks.WIND_FLAG, new Item.Properties()));
 				helper.register(new ResourceLocation(BurntMod.MODID, "rainbow_flag"), RAINBOW_FLAG = new BlockItem(BurntModBlocks.RAINBOW_FLAG, new Item.Properties()));
 				helper.register(new ResourceLocation(BurntMod.MODID, "pirate_flag"), PIRATE_FLAG = new BlockItem(BurntModBlocks.PIRATE_FLAG, new Item.Properties()));
+				helper.register(new ResourceLocation(BurntMod.MODID, "creeper_flag"), CREEPER_FLAG = new BlockItem(BurntModBlocks.CREEPER_FLAG, new Item.Properties()));
+				helper.register(new ResourceLocation(BurntMod.MODID, "wilderness_flag"), WILDERNESS_FLAG = new BlockItem(BurntModBlocks.WILDERNESS_FLAG, new Item.Properties()));
+				helper.register(new ResourceLocation(BurntMod.MODID, "fire_flag"), FIRE_FLAG = new BlockItem(BurntModBlocks.FIRE_FLAG, new Item.Properties()));
 				helper.register(new ResourceLocation(BurntMod.MODID, "ember_projectile_item"), EMBER_PROJECTILE_ITEM = new EmberProjectileItemItem());
 				helper.register(new ResourceLocation(BurntMod.MODID, "smoke_detector"), SMOKE_DETECTOR = new BlockItem(BurntModBlocks.SMOKE_DETECTOR, new Item.Properties()));
 				helper.register(new ResourceLocation(BurntMod.MODID, "smoldering_grass_slab"), SMOLDERING_GRASS_SLAB = new BlockItem(BurntModBlocks.SMOLDERING_GRASS_SLAB, new Item.Properties()));

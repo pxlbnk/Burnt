@@ -76,6 +76,9 @@
     {
       "id": "burnt:pirate_flag",
       "required": false
-    }
+    },
+    "burnt:creeper_flag",
+    "burnt:wilderness_flag",
+    "burnt:fire_flag"
   ]
 }

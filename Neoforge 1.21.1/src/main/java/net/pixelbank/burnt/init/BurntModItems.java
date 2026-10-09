@@ -441,6 +441,9 @@ public class BurntModItems {
 	public static Item WIND_FLAG;
 	public static Item RAINBOW_FLAG;
 	public static Item PIRATE_FLAG;
+	public static Item CREEPER_FLAG;
+	public static Item WILDERNESS_FLAG;
+	public static Item FIRE_FLAG;
 	public static Item EMBER_PROJECTILE_ITEM;
 	// Terrain Slabs soil chain - see compat/TerrainSlabsBridge.
 	public static Item SMOLDERING_GRASS_SLAB;
@@ -1732,6 +1735,15 @@ public class BurntModItems {
 		PIRATE_FLAG = Registry.register(BuiltInRegistries.ITEM,
 				ResourceLocation.fromNamespaceAndPath(BurntMod.MODID, "pirate_flag"),
 				new BlockItem(BurntModBlocks.PIRATE_FLAG, new Item.Properties()));
+		CREEPER_FLAG = Registry.register(BuiltInRegistries.ITEM,
+				ResourceLocation.fromNamespaceAndPath(BurntMod.MODID, "creeper_flag"),
+				new BlockItem(BurntModBlocks.CREEPER_FLAG, new Item.Properties()));
+		WILDERNESS_FLAG = Registry.register(BuiltInRegistries.ITEM,
+				ResourceLocation.fromNamespaceAndPath(BurntMod.MODID, "wilderness_flag"),
+				new BlockItem(BurntModBlocks.WILDERNESS_FLAG, new Item.Properties()));
+		FIRE_FLAG = Registry.register(BuiltInRegistries.ITEM,
+				ResourceLocation.fromNamespaceAndPath(BurntMod.MODID, "fire_flag"),
+				new BlockItem(BurntModBlocks.FIRE_FLAG, new Item.Properties()));
 		EMBER_PROJECTILE_ITEM = Registry.register(BuiltInRegistries.ITEM,
 				ResourceLocation.fromNamespaceAndPath(BurntMod.MODID, "ember_projectile_item"),
 				new EmberProjectileItemItem());

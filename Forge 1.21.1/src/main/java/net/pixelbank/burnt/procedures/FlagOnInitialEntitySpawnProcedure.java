@@ -68,6 +68,15 @@ public class FlagOnInitialEntitySpawnProcedure {
 		} else if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == BurntModBlocks.PIRATE_FLAG) {
 			if (entity instanceof FlagEntity _datEntSetS)
 				_datEntSetS.getEntityData().set(FlagEntity.DATA_color, "pirate");
+		} else if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == BurntModBlocks.CREEPER_FLAG) {
+			if (entity instanceof FlagEntity _datEntSetS)
+				_datEntSetS.getEntityData().set(FlagEntity.DATA_color, "creeper");
+		} else if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == BurntModBlocks.WILDERNESS_FLAG) {
+			if (entity instanceof FlagEntity _datEntSetS)
+				_datEntSetS.getEntityData().set(FlagEntity.DATA_color, "wilderness");
+		} else if ((world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == BurntModBlocks.FIRE_FLAG) {
+			if (entity instanceof FlagEntity _datEntSetS)
+				_datEntSetS.getEntityData().set(FlagEntity.DATA_color, "fire");
 		}
 	}
 }

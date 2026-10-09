@@ -39,6 +39,9 @@ public class BurntModTabs {
 				event.accept(BurntModBlocks.WIND_FLAG);
 				event.accept(BurntModBlocks.RAINBOW_FLAG);
 				event.accept(BurntModBlocks.PIRATE_FLAG);
+				event.accept(BurntModBlocks.CREEPER_FLAG);
+				event.accept(BurntModBlocks.WILDERNESS_FLAG);
+				event.accept(BurntModBlocks.FIRE_FLAG);
 			}
 		}
 
@@ -173,6 +176,9 @@ public class BurntModTabs {
 				event.accept(BurntModBlocks.WIND_FLAG);
 				event.accept(BurntModBlocks.RAINBOW_FLAG);
 				event.accept(BurntModBlocks.PIRATE_FLAG);
+				event.accept(BurntModBlocks.CREEPER_FLAG);
+				event.accept(BurntModBlocks.WILDERNESS_FLAG);
+				event.accept(BurntModBlocks.FIRE_FLAG);
 			}
 		}
 	}

@@ -421,6 +421,9 @@ public class BurntModBlocks {
 	public static Block WIND_FLAG;
 	public static Block RAINBOW_FLAG;
 	public static Block PIRATE_FLAG;
+	public static Block CREEPER_FLAG;
+	public static Block WILDERNESS_FLAG;
+	public static Block FIRE_FLAG;
 	// Terrain Slabs soil chain - see compat/TerrainSlabsBridge. Always registered (a registry
 	// entry cannot be conditional without corrupting worlds and registry sync); only their
 	// creative-tab visibility is gated on terrain_slabs being present.
@@ -845,6 +848,9 @@ public class BurntModBlocks {
 		WIND_FLAG = reg(event, "wind_flag", new WindFlagBlock());
 		RAINBOW_FLAG = reg(event, "rainbow_flag", new RainbowFlagBlock());
 		PIRATE_FLAG = reg(event, "pirate_flag", new PirateFlagBlock());
+		CREEPER_FLAG = reg(event, "creeper_flag", new CreeperFlagBlock());
+		WILDERNESS_FLAG = reg(event, "wilderness_flag", new WildernessFlagBlock());
+		FIRE_FLAG = reg(event, "fire_flag", new FireFlagBlock());
 		SMOKE_DETECTOR = reg(event, "smoke_detector", new SmokeDetectorBlock());
 		SMOLDERING_GRASS_SLAB = reg(event, "smoldering_grass_slab", new SmolderingGrassSlabBlock());
 		BURNT_GRASS_SLAB = reg(event, "burnt_grass_slab", new BurntGrassSlabBlock());

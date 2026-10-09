@@ -312,6 +312,51 @@ public class FlagRenderer extends MobRenderer<FlagEntity, Modelflag<FlagEntity>>
 				}
 			}
 		});
+		this.addLayer(new RenderLayer<FlagEntity, Modelflag<FlagEntity>>(this) {
+			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("burnt:textures/entities/flag_creeper.png");
+
+			@Override
+			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, FlagEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
+				Level world = entity.level();
+				double x = entity.getX();
+				double y = entity.getY();
+				double z = entity.getZ();
+				if (CreeperFlagDisplayConditionProcedure.execute(entity)) {
+					VertexConsumer vertexConsumer = bufferSource.getBuffer(RenderType.entityCutoutNoCull(LAYER_TEXTURE));
+					this.getParentModel().renderToBuffer(poseStack, vertexConsumer, light, OverlayTexture.NO_OVERLAY, 1f, 1f, 1f, 1f);
+				}
+			}
+		});
+		this.addLayer(new RenderLayer<FlagEntity, Modelflag<FlagEntity>>(this) {
+			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("burnt:textures/entities/flag_wilderness.png");
+
+			@Override
+			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, FlagEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
+				Level world = entity.level();
+				double x = entity.getX();
+				double y = entity.getY();
+				double z = entity.getZ();
+				if (WildernessFlagDisplayConditionProcedure.execute(entity)) {
+					VertexConsumer vertexConsumer = bufferSource.getBuffer(RenderType.entityCutoutNoCull(LAYER_TEXTURE));
+					this.getParentModel().renderToBuffer(poseStack, vertexConsumer, light, OverlayTexture.NO_OVERLAY, 1f, 1f, 1f, 1f);
+				}
+			}
+		});
+		this.addLayer(new RenderLayer<FlagEntity, Modelflag<FlagEntity>>(this) {
+			final ResourceLocation LAYER_TEXTURE = new ResourceLocation("burnt:textures/entities/flag_fire.png");
+
+			@Override
+			public void render(PoseStack poseStack, MultiBufferSource bufferSource, int light, FlagEntity entity, float limbSwing, float limbSwingAmount, float partialTicks, float ageInTicks, float netHeadYaw, float headPitch) {
+				Level world = entity.level();
+				double x = entity.getX();
+				double y = entity.getY();
+				double z = entity.getZ();
+				if (FireFlagDisplayConditionProcedure.execute(entity)) {
+					VertexConsumer vertexConsumer = bufferSource.getBuffer(RenderType.entityCutoutNoCull(LAYER_TEXTURE));
+					this.getParentModel().renderToBuffer(poseStack, vertexConsumer, light, OverlayTexture.NO_OVERLAY, 1f, 1f, 1f, 1f);
+				}
+			}
+		});
 	}
 
 	@Override

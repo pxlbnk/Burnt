@@ -19,6 +19,9 @@
     "burnt:red_flag",
     "burnt:wind_flag",
     "burnt:rainbow_flag",
-    "burnt:pirate_flag"
+    "burnt:pirate_flag",
+    "burnt:creeper_flag",
+    "burnt:wilderness_flag",
+    "burnt:fire_flag"
   ]
 }

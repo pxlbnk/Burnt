@@ -419,6 +419,9 @@ public class BurntModBlocks {
 	public static Block WIND_FLAG;
 	public static Block RAINBOW_FLAG;
 	public static Block PIRATE_FLAG;
+	public static Block CREEPER_FLAG;
+	public static Block WILDERNESS_FLAG;
+	public static Block FIRE_FLAG;
 	// Terrain Slabs soil chain - see compat/TerrainSlabsBridge. Always registered (a registry
 	// entry cannot be conditional without corrupting worlds and registry sync); only their
 	// creative-tab visibility is gated on terrain_slabs being present.
@@ -843,6 +846,9 @@ public class BurntModBlocks {
 				helper.register(new ResourceLocation(BurntMod.MODID, "wind_flag"), WIND_FLAG = new WindFlagBlock());
 				helper.register(new ResourceLocation(BurntMod.MODID, "rainbow_flag"), RAINBOW_FLAG = new RainbowFlagBlock());
 				helper.register(new ResourceLocation(BurntMod.MODID, "pirate_flag"), PIRATE_FLAG = new PirateFlagBlock());
+				helper.register(new ResourceLocation(BurntMod.MODID, "creeper_flag"), CREEPER_FLAG = new CreeperFlagBlock());
+				helper.register(new ResourceLocation(BurntMod.MODID, "wilderness_flag"), WILDERNESS_FLAG = new WildernessFlagBlock());
+				helper.register(new ResourceLocation(BurntMod.MODID, "fire_flag"), FIRE_FLAG = new FireFlagBlock());
 				helper.register(new ResourceLocation(BurntMod.MODID, "smoke_detector"), SMOKE_DETECTOR = new SmokeDetectorBlock());
 				helper.register(new ResourceLocation(BurntMod.MODID, "smoldering_grass_slab"), SMOLDERING_GRASS_SLAB = new SmolderingGrassSlabBlock());
 				helper.register(new ResourceLocation(BurntMod.MODID, "burnt_grass_slab"), BURNT_GRASS_SLAB = new BurntGrassSlabBlock());
