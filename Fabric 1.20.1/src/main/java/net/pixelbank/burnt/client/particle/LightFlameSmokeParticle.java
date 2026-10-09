@@ -36,6 +36,32 @@ public class LightFlameSmokeParticle extends TextureSheetParticle {
 	// Where the particle was born - smoke spawns inside the burning block, so let it out before the contact check applies
 	private final net.minecraft.core.BlockPos originBlock;
 
+	// Wind, looked up once per game tick and shared by every particle of this type
+	private static long windTick = -1;
+	private static double windX, windZ;
+
+	/** How hard the particle is pulled toward the wind each tick. Higher than the heavy flame
+	 *  smoke uses, because this one only lives 34 ticks and has to pick the wind up quickly. */
+	private static final double WIND_FOLLOW = 0.12;
+
+	/** Shelter multiplier, sampled once - too short-lived to climb clear of cover. */
+	private double windFactor;
+
+	private static void refreshWind(ClientLevel level) {
+		long t = level.getGameTime();
+		if (t == windTick)
+			return;
+		windTick = t;
+		if (net.pixelbank.burnt.configuration.BurntBasicConfigConfiguration.WIND.get()) {
+			// Same /25 scaling the emitters use, so it drifts at the speed the wind implies
+			windX = net.pixelbank.burnt.procedures.WindAngleXProcedure.execute(level) / 25.0;
+			windZ = net.pixelbank.burnt.procedures.WindAngleZProcedure.execute(level) / 25.0;
+		} else {
+			windX = 0;
+			windZ = 0;
+		}
+	}
+
 	protected LightFlameSmokeParticle(ClientLevel world, double x, double y, double z, double vx, double vy, double vz, SpriteSet spriteSet) {
 		super(world, x, y, z);
 		this.originBlock = BlockPos.containing(x, y, z);
@@ -53,6 +79,7 @@ public class LightFlameSmokeParticle extends TextureSheetParticle {
 		this.xd = vx * 0.1;
 		this.yd = vy * 0.1;
 		this.zd = vz * 0.1;
+		this.windFactor = net.pixelbank.burnt.procedures.ParticleWindMultiplyerProcedure.execute(world, x, y, z);
 		this.setSpriteFromAge(spriteSet);
 	}
 
@@ -65,6 +92,12 @@ public class LightFlameSmokeParticle extends TextureSheetParticle {
 	public void tick() {
 		super.tick();
 		if (!this.removed) {
+			// Ease toward the current wind each tick. Without this the particle kept only its
+			// launch velocity, which vanilla friction flattens within a few ticks - so it looked
+			// static even in a gale.
+			refreshWind(this.level);
+			this.xd += (windX * this.windFactor - this.xd) * WIND_FOLLOW;
+			this.zd += (windZ * this.windFactor - this.zd) * WIND_FOLLOW;
 			// Die on contact with something solid, so smoke vanishes at a ceiling instead of bunching into a mat
 			// isSolidRender is an opacity test, not collision - leaves have full collision and would pool smoke under every canopy
 			// Two exemptions or it kills itself immediately: its own spawn block, and any block that is itself on fire
