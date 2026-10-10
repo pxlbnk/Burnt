@@ -7,8 +7,10 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
+import java.lang.reflect.Field;
 import java.lang.reflect.Method;
 import java.util.List;
+import java.util.Map;
 
 // Optional bridge to LevelZ (modid "levelz") for skill-gated flint and steel use
 // LevelZ misses the item gate when used on a block, and Burnt registers before it, so both are checked here
@@ -24,6 +26,11 @@ public final class LevelZBridge {
 	private static Method getLevelManager;
 	private static Method hasRequiredItemLevel;
 	private static Method hasRequiredBlockLevel;
+	// Only needed to name the skill in the refusal, so a miss here just costs the detail
+	private static Method getRequiredItemLevel;
+	private static Method getRequiredBlockLevel;
+	private static Method getSkillLevel;
+	private static Field skills;
 
 	// 1.x
 	private static Method playerLevelisHighEnough;
@@ -50,7 +57,7 @@ public final class LevelZBridge {
 		if (!ready(player) || item == null)
 			return false;
 		if (getLevelManager != null)
-			return deniedModern(player, hasRequiredItemLevel, item);
+			return deniedModern(player, hasRequiredItemLevel, getRequiredItemLevel, item);
 		return deniedLegacy(player, BuiltInRegistries.ITEM.getKey(item).toString(), "minecraft:custom_item");
 	}
 
@@ -59,7 +66,7 @@ public final class LevelZBridge {
 		if (!ready(player) || block == null)
 			return false;
 		if (getLevelManager != null)
-			return deniedModern(player, hasRequiredBlockLevel, block);
+			return deniedModern(player, hasRequiredBlockLevel, getRequiredBlockLevel, block);
 		return deniedLegacy(player, BuiltInRegistries.BLOCK.getKey(block).toString(), "minecraft:custom_block");
 	}
 
@@ -72,7 +79,7 @@ public final class LevelZBridge {
 	}
 
 	// 2.x: ask the player's LevelManager and invert - false means not allowed.
-	private static boolean deniedModern(Player player, Method check, Object subject) {
+	private static boolean deniedModern(Player player, Method check, Method required, Object subject) {
 		if (check == null)
 			return false;
 		try {
@@ -80,9 +87,54 @@ public final class LevelZBridge {
 			if (lm == null)
 				return false;
 			Object ok = check.invoke(lm, subject);
-			return (ok instanceof Boolean b) && !b;
+			boolean denied = (ok instanceof Boolean b) && !b;
+			if (denied)
+				capturePendingModern(lm, required, subject);
+			return denied;
 		} catch (Throwable ignored) {
 			return false;
+		}
+	}
+
+	// 2.x requirements are a skill-id to level map, so find the skill the player is actually short on
+	// Key shape matches LevelZ's own concat: restriction.levelz.<skill>.tooltip
+	private static void capturePendingModern(Object levelManager, Method required, Object subject) {
+		pendingKey = null;
+		pendingLevel = null;
+		if (required == null || getSkillLevel == null || skills == null)
+			return;
+		try {
+			if (!(required.invoke(levelManager, subject) instanceof Map<?, ?> needed))
+				return;
+			Object skillMap = skills.get(null);
+			if (!(skillMap instanceof Map<?, ?> byId))
+				return;
+			int shortId = -1;
+			int shortNeed = 0;
+			for (Map.Entry<?, ?> e : needed.entrySet()) {
+				if (!(e.getKey() instanceof Integer id) || !(e.getValue() instanceof Integer need))
+					continue;
+				if (!(getSkillLevel.invoke(levelManager, id) instanceof Integer have) || have >= need)
+					continue;
+				// Lowest skill id wins a tie, so repeated refusals name the same skill
+				if (shortId < 0 || need > shortNeed || (need == shortNeed && id < shortId)) {
+					shortId = id;
+					shortNeed = need;
+				}
+			}
+			if (shortId < 0)
+				return;
+			Object skill = byId.get(shortId);
+			if (skill == null)
+				return;
+			Object name = skill.getClass().getMethod("getKey").invoke(skill);
+			if (!(name instanceof String s) || s.isEmpty())
+				return;
+			pendingKey = "restriction.levelz." + s + ".tooltip";
+			pendingLevel = shortNeed;
+		} catch (Throwable ignored) {
+			pendingKey = null;
+			pendingLevel = null;
 		}
 	}
 
@@ -131,8 +183,10 @@ public final class LevelZBridge {
 				} catch (Throwable ignored) {
 					hasRequiredBlockLevel = null;
 				}
-				if (hasRequiredItemLevel != null || hasRequiredBlockLevel != null)
+				if (hasRequiredItemLevel != null || hasRequiredBlockLevel != null) {
+					resolveModernDetail(lm);
 					return;
+				}
 			} catch (Throwable ignored) {
 				// not 2.x - fall through to the 1.x lookup
 			}
@@ -150,7 +204,31 @@ public final class LevelZBridge {
 		}
 	}
 
-	// Skill and level sit at 0 and 1 in a dedicated list, or after the id in the custom list
+	// Everything needed to name the skill rather than just say "Locked" - all optional
+	private static void resolveModernDetail(Class<?> lm) {
+		try {
+			getRequiredItemLevel = lm.getMethod("getRequiredItemLevel", Item.class);
+		} catch (Throwable ignored) {
+			getRequiredItemLevel = null;
+		}
+		try {
+			getRequiredBlockLevel = lm.getMethod("getRequiredBlockLevel", Block.class);
+		} catch (Throwable ignored) {
+			getRequiredBlockLevel = null;
+		}
+		try {
+			getSkillLevel = lm.getMethod("getSkillLevel", int.class);
+		} catch (Throwable ignored) {
+			getSkillLevel = null;
+		}
+		try {
+			skills = lm.getField("SKILLS");
+		} catch (Throwable ignored) {
+			skills = null;
+		}
+	}
+
+	// 1.x: skill and level sit at 0 and 1 in a dedicated list, or after the id in the custom list
 	// Key shape matches LevelZ's own concat: item.levelz.<skill>.tooltip
 	private static void capturePending(List<?> list, String arg, String id) {
 		pendingKey = null;
