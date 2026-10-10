@@ -2,6 +2,7 @@ package net.pixelbank.burnt;
 
 import net.pixelbank.burnt.entity.FireballEntity;
 import net.pixelbank.burnt.init.BurntModEntities;
+import net.pixelbank.burnt.init.BurntModBlockEntities;
 import net.pixelbank.burnt.init.BurntModParticleTypes;
 import net.pixelbank.burnt.init.BurntModBlocks;
 import net.pixelbank.burnt.init.BurntModItems;
@@ -12,8 +13,7 @@ import net.pixelbank.burnt.network.SmokeFogPayload;
 import net.pixelbank.burnt.client.renderer.EmberProjectileRenderer;
 import net.pixelbank.burnt.client.renderer.FallingSlabRenderer;
 import net.pixelbank.burnt.client.renderer.SparkRenderer;
-import net.pixelbank.burnt.client.renderer.FlagRenderer;
-import net.pixelbank.burnt.client.renderer.FlagBlackRenderer;
+import net.pixelbank.burnt.client.renderer.FlagBlockEntityRenderer;
 import net.pixelbank.burnt.client.model.ModelCustomModel;
 import net.pixelbank.burnt.client.model.ModelSmoke;
 import net.pixelbank.burnt.client.model.Modelflag;
@@ -281,8 +281,8 @@ public class BurntModClient {
 		event.registerEntityRenderer(BurntModEntities.EMBER_PROJECTILE, EmberProjectileRenderer::new);
 		event.registerEntityRenderer(BurntModEntities.FALLING_SLAB, FallingSlabRenderer::new);
 		event.registerEntityRenderer(BurntModEntities.SPARK, SparkRenderer::new);
-		event.registerEntityRenderer(BurntModEntities.FLAG, FlagRenderer::new);
-		event.registerEntityRenderer(BurntModEntities.FLAG_BLACK, FlagBlackRenderer::new);
+		// Flags draw their cloth from a block entity renderer, not an entity renderer
+		event.registerBlockEntityRenderer(BurntModBlockEntities.FLAG, FlagBlockEntityRenderer::new);
 	}
 
 	// EntityRenderersEvent.RegisterLayerDefinitions - mod bus

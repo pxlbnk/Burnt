@@ -19,8 +19,6 @@ public class BurntModEntities {
 	public static EntityType<FireballEntity> FIREBALL;
 	public static EntityType<FallingSlabEntity> FALLING_SLAB;
 	public static EntityType<SparkEntity> SPARK;
-	public static EntityType<FlagEntity> FLAG;
-	public static EntityType<FlagBlackEntity> FLAG_BLACK;
 	public static EntityType<EmberProjectileEntity> EMBER_PROJECTILE;
 
 	public static void register() {
@@ -59,20 +57,6 @@ public class BurntModEntities {
 						.trackRangeBlocks(64).trackedUpdateRate(3).forceTrackedVelocityUpdates(true)
 						.build());
 
-		FLAG = Registry.register(BuiltInRegistries.ENTITY_TYPE,
-				ResourceLocation.fromNamespaceAndPath(BurntMod.MODID, "flag"),
-				FabricEntityTypeBuilder.<FlagEntity>create(MobCategory.MONSTER, FlagEntity::new)
-						.dimensions(EntityDimensions.scalable(0.4f, 0.6f))
-						.trackRangeBlocks(256).trackedUpdateRate(3).forceTrackedVelocityUpdates(true)
-						.build());
-
-		FLAG_BLACK = Registry.register(BuiltInRegistries.ENTITY_TYPE,
-				ResourceLocation.fromNamespaceAndPath(BurntMod.MODID, "flag_black"),
-				FabricEntityTypeBuilder.<FlagBlackEntity>create(MobCategory.MONSTER, FlagBlackEntity::new)
-						.dimensions(EntityDimensions.scalable(0.1f, 0.6f))
-						.trackRangeBlocks(256).trackedUpdateRate(3).forceTrackedVelocityUpdates(true)
-						.build());
-
 		EMBER_PROJECTILE = Registry.register(BuiltInRegistries.ENTITY_TYPE,
 				ResourceLocation.fromNamespaceAndPath(BurntMod.MODID, "ember_projectile"),
 				FabricEntityTypeBuilder.<EmberProjectileEntity>create(MobCategory.MISC, EmberProjectileEntity::new)
@@ -83,7 +67,5 @@ public class BurntModEntities {
 		// Register default attributes for mob entities (projectile entities don't need these)
 		FabricDefaultAttributeRegistry.register(FALLING_SLAB, FallingSlabEntity.createAttributes());
 		FabricDefaultAttributeRegistry.register(SPARK, SparkEntity.createAttributes());
-		FabricDefaultAttributeRegistry.register(FLAG, FlagEntity.createAttributes());
-		FabricDefaultAttributeRegistry.register(FLAG_BLACK, FlagBlackEntity.createAttributes());
 	}
 }

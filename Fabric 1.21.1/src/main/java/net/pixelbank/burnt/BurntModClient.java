@@ -4,6 +4,7 @@ import net.pixelbank.burnt.entity.SprayEntity;
 import net.pixelbank.burnt.entity.FireballEntity;
 import net.pixelbank.burnt.entity.EmberProjectileEntity;
 import net.pixelbank.burnt.init.BurntModEntities;
+import net.pixelbank.burnt.init.BurntModBlockEntities;
 import net.pixelbank.burnt.init.BurntModParticleTypes;
 import net.pixelbank.burnt.init.BurntModBlocks;
 import net.pixelbank.burnt.init.BurntModItems;
@@ -17,8 +18,7 @@ import net.pixelbank.burnt.network.BurntModVariables.MapVariables;
 import net.pixelbank.burnt.client.renderer.EmberProjectileRenderer;
 import net.pixelbank.burnt.client.renderer.FallingSlabRenderer;
 import net.pixelbank.burnt.client.renderer.SparkRenderer;
-import net.pixelbank.burnt.client.renderer.FlagRenderer;
-import net.pixelbank.burnt.client.renderer.FlagBlackRenderer;
+import net.pixelbank.burnt.client.renderer.FlagBlockEntityRenderer;
 import net.pixelbank.burnt.client.model.ModelCustomModel;
 import net.pixelbank.burnt.client.model.ModelSmoke;
 import net.pixelbank.burnt.client.model.Modelflag;
@@ -31,6 +31,7 @@ import net.fabricmc.api.Environment;
 import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
+import net.fabricmc.fabric.api.client.rendering.v1.BlockEntityRendererRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.ColorProviderRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityModelLayerRegistry;
 import net.fabricmc.fabric.api.client.rendering.v1.HudRenderCallback;
@@ -212,8 +213,8 @@ public class BurntModClient implements ClientModInitializer {
 		EntityRendererRegistry.register(BurntModEntities.EMBER_PROJECTILE, EmberProjectileRenderer::new);
 		EntityRendererRegistry.register(BurntModEntities.FALLING_SLAB, FallingSlabRenderer::new);
 		EntityRendererRegistry.register(BurntModEntities.SPARK, SparkRenderer::new);
-		EntityRendererRegistry.register(BurntModEntities.FLAG, FlagRenderer::new);
-		EntityRendererRegistry.register(BurntModEntities.FLAG_BLACK, FlagBlackRenderer::new);
+		// Flags draw their cloth from a block entity renderer, not an entity renderer
+		BlockEntityRendererRegistry.register(BurntModBlockEntities.FLAG, FlagBlockEntityRenderer::new);
 
 		// Entity model layers
 		EntityModelLayerRegistry.registerModelLayer(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
