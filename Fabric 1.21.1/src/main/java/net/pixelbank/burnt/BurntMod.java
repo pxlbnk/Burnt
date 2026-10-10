@@ -190,8 +190,9 @@ public class BurntMod implements ModInitializer {
 				// LevelZ misses the item gate when used on a block, and it registers after us, so check both here
 				if (net.pixelbank.burnt.compat.LevelZBridge.blocksItem(player, stack.getItem())
 						|| net.pixelbank.burnt.compat.LevelZBridge.blocksBlock(player, level.getBlockState(hitResult.getBlockPos()).getBlock())) {
-					if (!level.isClientSide())
-						player.displayClientMessage(net.pixelbank.burnt.compat.LevelZBridge.lockedMessage(), true);
+					// Shown on whichever side refuses - FAIL on the client stops the packet ever
+					// reaching the server, so a server-only message would never be seen
+					player.displayClientMessage(net.pixelbank.burnt.compat.LevelZBridge.lockedMessage(), true);
 					return InteractionResult.FAIL;
 				}
 
