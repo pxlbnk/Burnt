@@ -169,6 +169,16 @@
     "burnt:recovering_grass_slab",
     "burnt:smoldering_moss_slab",
     "burnt:burnt_moss_slab",
-    "burnt:burnt_dirt_slab"
+    "burnt:burnt_dirt_slab",
+    "burnt:burnt_envelope",
+    "burnt:burnt_fern",
+    "burnt:burnt_flesh_block",
+    "burnt:burnt_high_grass",
+    "burnt:burnt_sail",
+    "burnt:burnt_symmetric_sail",
+    "burnt:burnt_vertical_slab",
+    "burnt:burnt_wall",
+    "burnt:ember_vertical_slab",
+    "burnt:ember_wall"
   ]
 }
