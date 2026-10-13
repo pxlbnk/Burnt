@@ -15,6 +15,7 @@ public class BurntModParticleTypes {
 	public static SimpleParticleType FLAMES;
 	public static SimpleParticleType FLAME_SMOKE;
 	public static SimpleParticleType LIGHT_FLAME_SMOKE;
+	public static SimpleParticleType VOLCANO_SMOKE;
 	public static SimpleParticleType BIG_EXPLOSION;
 	public static SimpleParticleType LARGE_STEAM_PARTICLE;
 	public static SimpleParticleType MEDIUM_STEAM_PARTICLE;
@@ -39,6 +40,7 @@ public class BurntModParticleTypes {
 			FLAMES                  = reg(event, "flames",                  false);
 			FLAME_SMOKE             = reg(event, "flame_smoke",             false);
 			LIGHT_FLAME_SMOKE       = reg(event, "light_flame_smoke",       false);
+			VOLCANO_SMOKE           = reg(event, "volcano_smoke",           false);
 			BIG_EXPLOSION           = reg(event, "big_explosion",           true);
 			LARGE_STEAM_PARTICLE    = reg(event, "large_steam_particle",    false);
 			MEDIUM_STEAM_PARTICLE   = reg(event, "medium_steam_particle",   false);

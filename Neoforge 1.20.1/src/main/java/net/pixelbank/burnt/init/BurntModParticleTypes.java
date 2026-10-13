@@ -13,6 +13,7 @@ public class BurntModParticleTypes {
 	public static SimpleParticleType FLAMES;
 	public static SimpleParticleType FLAME_SMOKE;
 	public static SimpleParticleType LIGHT_FLAME_SMOKE;
+	public static SimpleParticleType VOLCANO_SMOKE;
 	public static SimpleParticleType BIG_EXPLOSION;
 	public static SimpleParticleType LARGE_STEAM_PARTICLE;
 	public static SimpleParticleType MEDIUM_STEAM_PARTICLE;
@@ -41,6 +42,8 @@ public class BurntModParticleTypes {
 						FLAME_SMOKE             = new SimpleParticleType(false) {});
 				helper.register(new ResourceLocation(BurntMod.MODID, "light_flame_smoke"),
 						LIGHT_FLAME_SMOKE       = new SimpleParticleType(false) {});
+				helper.register(new ResourceLocation(BurntMod.MODID, "volcano_smoke"),
+						VOLCANO_SMOKE           = new SimpleParticleType(false) {});
 				helper.register(new ResourceLocation(BurntMod.MODID, "big_explosion"),
 						BIG_EXPLOSION           = new SimpleParticleType(true) {});
 				helper.register(new ResourceLocation(BurntMod.MODID, "large_steam_particle"),

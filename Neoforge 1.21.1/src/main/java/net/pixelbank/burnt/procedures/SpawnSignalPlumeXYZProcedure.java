@@ -21,6 +21,12 @@ import net.minecraft.world.level.LevelAccessor;
 public class SpawnSignalPlumeXYZProcedure {
 
 	public static void execute(LevelAccessor world, double x, double y, double z) {
+		execute(world, x, y, z, false);
+	}
+
+	// volcano true swaps the long-range smoke for the flameless volcano version
+	// Everything else - Sable spread, the plume sprites - is identical
+	public static void execute(LevelAccessor world, double x, double y, double z, boolean volcano) {
 		if (world.isClientSide()) return;
 		if (!(world instanceof ServerLevel level)) return;
 
@@ -49,7 +55,11 @@ public class SpawnSignalPlumeXYZProcedure {
 
 		// Vanilla culls smoke past ~32 blocks, so send a sparse plume to players further out
 		// Rolled low here and hard-capped in the util - this runs from every burning block's tick
-		net.pixelbank.burnt.util.BurntDistantSmoke.emit(level, x + 0.5, y + 1.5, z + 0.5);
+		if (volcano) {
+			net.pixelbank.burnt.util.BurntDistantSmoke.emitVolcano(level, x + 0.5, y + 1.5, z + 0.5);
+		} else {
+			net.pixelbank.burnt.util.BurntDistantSmoke.emit(level, x + 0.5, y + 1.5, z + 0.5);
+		}
 
 		// Jitter the plume spawn here, after the smoke - callers used to offset it and flames hung too high
 		x += net.minecraft.util.Mth.nextInt(level.getRandom(), 0, 3);

@@ -46,6 +46,20 @@ public final class BurntDistantSmoke {
 
 	/** @return true if smoke was actually sent (not throttled, and someone was in range). */
 	public static boolean emit(ServerLevel level, double x, double y, double z) {
+		return emit(level, x, y, z, (SimpleParticleType) BurntModParticleTypes.FLAME_SMOKE, true);
+	}
+
+	/**
+	 * Volcano vents: the same plume, but larger smoke and none of the fire.
+	 * A vent is hot rock rather than something burning, so flames and embers read wrong on it.
+	 */
+	public static boolean emitVolcano(ServerLevel level, double x, double y, double z) {
+		return emit(level, x, y, z, (SimpleParticleType) BurntModParticleTypes.VOLCANO_SMOKE, false);
+	}
+
+	/** @param hotBits false drops the embers and base flames, leaving only the smoke column. */
+	private static boolean emit(ServerLevel level, double x, double y, double z,
+	                            SimpleParticleType smokeType, boolean hotBits) {
 		double range = BurntBasicConfigConfiguration.SMOKE_PARTICLE_RANGE.get();
 		if (range <= 0)
 			return false;                                    // feature off
@@ -108,10 +122,10 @@ public final class BurntDistantSmoke {
 				double py = y + Mth.nextDouble(level.getRandom(), -0.3, 1.4);
 				double pz = z + Mth.nextDouble(level.getRandom(), -1.1, 1.1);
 				// count=0 makes the dist arguments velocity rather than spread, and force=true is required past 32 blocks
-				level.sendParticles(player, (SimpleParticleType) BurntModParticleTypes.FLAME_SMOKE, true,
+				level.sendParticles(player, smokeType, true,
 						px, py, pz, 0, vx, Mth.nextDouble(level.getRandom(), 0.02, 0.08), vz, 1.0);
 			}
-			for (int i = 0; i < EMBERS_PER_EMIT; i++) {
+			for (int i = 0; hotBits && i < EMBERS_PER_EMIT; i++) {
 				// Embers climb faster than the smoke and start lower, so they read as rising out of the fire
 				double ex = x + Mth.nextDouble(level.getRandom(), -0.5, 0.5);
 				double ey = y + Mth.nextDouble(level.getRandom(), -0.8, 0.2);
@@ -120,7 +134,7 @@ public final class BurntDistantSmoke {
 						ex, ey, ez, 0, vx, Mth.nextDouble(level.getRandom(), 0.25, 0.45), vz, 1.0);
 			}
 			// Below a count of 1 the only way to thin flames out is to skip emissions, so roll per player
-			if (level.getRandom().nextDouble() < FLAME_EMIT_CHANCE) {
+			if (hotBits && level.getRandom().nextDouble() < FLAME_EMIT_CHANCE) {
 				for (int i = 0; i < FLAMES_PER_EMIT; i++) {
 					// Keep flames inside the burning block, leaving room for their upward drift
 					double fx = x + Mth.nextDouble(level.getRandom(), -0.3, 0.3);

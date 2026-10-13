@@ -279,6 +279,7 @@ public class BurntModClient {
 		event.registerSpriteSet(BurntModParticleTypes.FLAMES,               FlamesParticle.FlamesParticleProvider::new);
 		event.registerSpriteSet(BurntModParticleTypes.FLAME_SMOKE,          FlameSmokeParticle.FlameSmokeParticleProvider::new);
 		event.registerSpriteSet(BurntModParticleTypes.LIGHT_FLAME_SMOKE,    LightFlameSmokeParticle.LightFlameSmokeParticleProvider::new);
+		event.registerSpriteSet(BurntModParticleTypes.VOLCANO_SMOKE,        VolcanoSmokeParticle.VolcanoSmokeParticleProvider::new);
 		event.registerSpriteSet(BurntModParticleTypes.BIG_EXPLOSION,        BigExplosionParticle.BigExplosionParticleProvider::new);
 		event.registerSpriteSet(BurntModParticleTypes.LARGE_STEAM_PARTICLE, LargeSteamParticleParticle.LargeSteamParticleParticleProvider::new);
 		event.registerSpriteSet(BurntModParticleTypes.MEDIUM_STEAM_PARTICLE, MediumSteamParticleParticle.MediumSteamParticleParticleProvider::new);

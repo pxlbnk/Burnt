@@ -227,6 +227,7 @@ public class BurntModClient implements ClientModInitializer {
 		ParticleFactoryRegistry.getInstance().register(BurntModParticleTypes.FLAMES, FlamesParticle.FlamesParticleProvider::new);
 		ParticleFactoryRegistry.getInstance().register(BurntModParticleTypes.FLAME_SMOKE, FlameSmokeParticle.FlameSmokeParticleProvider::new);
 		ParticleFactoryRegistry.getInstance().register(BurntModParticleTypes.LIGHT_FLAME_SMOKE, LightFlameSmokeParticle.LightFlameSmokeParticleProvider::new);
+		ParticleFactoryRegistry.getInstance().register(BurntModParticleTypes.VOLCANO_SMOKE, VolcanoSmokeParticle.VolcanoSmokeParticleProvider::new);
 		ParticleFactoryRegistry.getInstance().register(BurntModParticleTypes.BIG_EXPLOSION, BigExplosionParticle.BigExplosionParticleProvider::new);
 		ParticleFactoryRegistry.getInstance().register(BurntModParticleTypes.LARGE_STEAM_PARTICLE, LargeSteamParticleParticle.LargeSteamParticleParticleProvider::new);
 		ParticleFactoryRegistry.getInstance().register(BurntModParticleTypes.MEDIUM_STEAM_PARTICLE, MediumSteamParticleParticle.MediumSteamParticleParticleProvider::new);
