@@ -3,6 +3,7 @@ package net.pixelbank.burnt.procedures;
 
 import net.pixelbank.burnt.network.BurntModVariables;
 import net.pixelbank.burnt.configuration.BurntBasicConfigConfiguration;
+import net.pixelbank.burnt.compat.LivingWindBridge;
 import net.pixelbank.burnt.compat.ImmersiveWindsBridge;
 
 import net.minecraft.world.level.LevelAccessor;
@@ -13,6 +14,18 @@ public class WindWakerProcedure {
 	public static void execute(LevelAccessor world) {
 		if (BurntBasicConfigConfiguration.WIND.get() != true) return;
 		if (world.isClientSide()) return;
+
+		// Living Wind bridge - ranks above the rest, it is the most detailed of them
+		if (LivingWindBridge.isActive()) {
+			BurntModVariables.MapVariables mvLW = BurntModVariables.MapVariables.get(world);
+			double newSpeed = LivingWindBridge.getBurntSpeed(world);
+			double newAngle = LivingWindBridge.getBurntAngle(world);
+			boolean changedLW = false;
+			if (Math.abs(newSpeed - mvLW.windSpeed) > 0.1) { mvLW.windSpeed = newSpeed; changedLW = true; }
+			if (Math.abs(newAngle - mvLW.windAngle) > 0.1) { mvLW.windAngle = newAngle; changedLW = true; }
+			if (changedLW) mvLW.markSyncDirty();
+			return;
+		}
 
 		// Immersive Winds bridge - if IW is loaded, use its wind instead of ours
 		if (ImmersiveWindsBridge.isActive()) {
