@@ -1,0 +1,26 @@
+{
+  "replace": false,
+  "values": [
+    "burnt:air_particle",
+    "burnt:big_explosion",
+    "burnt:blue_flame_particle",
+    "burnt:burnt_leaves_particle",
+    "burnt:fire_particle",
+    "burnt:flame_smoke",
+    "burnt:flames",
+    "burnt:flesh_bubble",
+    "burnt:fog",
+    "burnt:large_flame_smoke",
+    "burnt:large_steam_particle",
+    "burnt:light_flame_smoke",
+    "burnt:medium_steam_particle",
+    "burnt:moss_fire_particle",
+    "burnt:smolder_leaves_particle",
+    "burnt:soot_particle",
+    "burnt:tall_fog",
+    "burnt:test_particle",
+    "burnt:thick_fog",
+    "burnt:torch_fire_particle",
+    "burnt:volcano_smoke"
+  ]
+}
