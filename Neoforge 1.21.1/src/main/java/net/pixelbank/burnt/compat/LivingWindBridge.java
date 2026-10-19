@@ -78,6 +78,25 @@ public class LivingWindBridge {
         }
     }
 
+    /**
+     * Wind speed for the flag animation, without the 0-100 clamp getBurntSpeed applies.
+     * Living Wind gusts reach about 2.5, and flattening those to 100 left flags below
+     * roughly y=81 unable to reach the top animation once the shelter multiplier applied.
+     * Particles keep the clamped value - only the flag stage reads this.
+     *
+     * @param fallback speed to use when Living Wind is not driving, i.e. Burnt's own windSpeed
+     */
+    public static double flagSpeed(LevelAccessor world, double fallback) {
+        Object snapshot = snapshot(world);
+        if (snapshot == null) return fallback;
+        try {
+            double strength = ((Number) snapshotStrength.invoke(snapshot)).doubleValue();
+            return Math.max(0.0, strength * (100.0 / FULL_STRENGTH));
+        } catch (Throwable e) {
+            return fallback;
+        }
+    }
+
     /** Living Wind keeps its state server-side, so there is nothing to read on a client level. */
     private static Object snapshot(LevelAccessor world) {
         if (!active || !(world instanceof ServerLevel serverLevel)) return null;

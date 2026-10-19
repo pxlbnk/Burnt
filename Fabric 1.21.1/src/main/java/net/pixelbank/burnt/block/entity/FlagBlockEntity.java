@@ -94,7 +94,10 @@ public class FlagBlockEntity extends BlockEntity {
 
 		float angle = (float) mapVars.windAngle;
 		double multiplier = ParticleWindMultiplyerProcedure.execute(level, pos.getX(), pos.getY(), pos.getZ());
-		int speed = (int) Math.round(mapVars.windSpeed * multiplier);
+		// Living Wind's gusts run past Burnt's 100 cap - the flag reads them uncapped so the
+		// top animation stays reachable once the shelter multiplier is applied
+		double rawSpeed = net.pixelbank.burnt.compat.LivingWindBridge.flagSpeed(level, mapVars.windSpeed);
+		int speed = (int) Math.round(rawSpeed * multiplier);
 		int newStage = stageForSpeed(speed);
 
 		boolean stageChanged = newStage != be.animationStage;

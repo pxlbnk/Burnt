@@ -33,8 +33,12 @@ public class FlagOnEntityTickUpdateProcedure {
 					}
 				}
 				multiplyer = ParticleWindMultiplyerProcedure.execute(world, x, y, z);
+				// Living Wind's gusts run past Burnt's 100 cap - the flag reads them uncapped so the
+				// top animation stays reachable once the shelter multiplier is applied
+				double rawSpeed = net.pixelbank.burnt.compat.LivingWindBridge.flagSpeed(world,
+						BurntModVariables.MapVariables.get(world).windSpeed);
 				if (entity instanceof FlagEntity _datEntSetI)
-					_datEntSetI.getEntityData().set(FlagEntity.DATA_windSpeed, (int) Math.round(BurntModVariables.MapVariables.get(world).windSpeed * multiplyer));
+					_datEntSetI.getEntityData().set(FlagEntity.DATA_windSpeed, (int) Math.round(rawSpeed * multiplyer));
 			}
 			if (!(world.getBlockState(BlockPos.containing(x, y - 1, z))).is(BurntTags.BLOCK_FLAGS)) {
 				if (!entity.level().isClientSide())
