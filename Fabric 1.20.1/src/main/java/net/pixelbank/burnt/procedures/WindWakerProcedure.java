@@ -45,6 +45,29 @@ public class WindWakerProcedure {
 		boolean changed = false;
 		long gameTime = world.getLevelData().getGameTime();
 
+		// A new world starts every wind field at zero, and the simulation only rolls a target on a
+		// 10% chance every 150 ticks, so wind can stay dead for a minute or more. Grass spread is
+		// gated on Math.random() <= windSpeed / 100, which never passes at zero, so grass lit in
+		// those first minutes does not spread at all. Seed a believable wind on the first tick.
+		// Also recovers a world that somehow saved with its wind at a standstill.
+		if (!mv.windSpeedLock && mv.windSpeed <= 0 && mv.windBaseSpeed <= 0 && mv.windTargetSpeed <= 0) {
+			// Same bands the simulation picks from, minus its 0-10 one, so the wind is never born dead
+			double seedRoll = Math.random();
+			int seeded = seedRoll < 0.05 ? Mth.nextInt(world.getRandom(), 31, 50)
+					: seedRoll < 0.25 ? Mth.nextInt(world.getRandom(), 21, 30)
+					: Mth.nextInt(world.getRandom(), 11, 20);
+			mv.windTargetSpeed = seeded;
+			mv.windBaseSpeed = seeded;
+			mv.windSpeed = seeded;
+			// Without this every world would start with a due-north wind
+			if (!mv.windAngleLock && mv.windAngle == 0 && mv.windTargetAngle == 0) {
+				double seededAngle = Mth.nextDouble(world.getRandom(), 0, 360);
+				mv.windAngle = seededAngle;
+				mv.windTargetAngle = seededAngle;
+			}
+			changed = true;
+		}
+
 		// Wind speed simulation
 		if (!mv.windSpeedLock) {
 
