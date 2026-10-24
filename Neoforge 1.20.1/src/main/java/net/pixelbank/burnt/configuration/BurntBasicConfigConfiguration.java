@@ -253,8 +253,42 @@ public class BurntBasicConfigConfiguration implements ConfigData {
 	private static BurntBasicConfigConfiguration instance;
 
 	public static void register() {
+		backUpExistingConfig();
 		AutoConfig.register(BurntBasicConfigConfiguration.class, GsonConfigSerializer::new);
 		instance = AutoConfig.getConfigHolder(BurntBasicConfigConfiguration.class).getConfig();
+	}
+
+	/**
+	 * Keep a copy of the config beside it before Auto Config reads it.
+	 *
+	 * <p>Auto Config resets every setting to its default when it cannot read the file - a renamed
+	 * field, a changed type, a half-written file from a crash - and then saves that over the
+	 * original. The player sees one log line and a world where things burn that did not before.
+	 * The copy taken here is from just before that happens, so renaming it back restores them.
+	 *
+	 * <p>Only a file that still parses is copied, so a broken config cannot overwrite a good
+	 * backup. Nothing here is allowed to stop the mod loading.
+	 */
+	private static void backUpExistingConfig() {
+		try {
+			java.nio.file.Path live = me.shedaniel.autoconfig.util.Utils.getConfigFolder()
+					.resolve("burnt_basic.json");
+			if (!java.nio.file.Files.isRegularFile(live))
+				return;
+			try (java.io.BufferedReader reader = java.nio.file.Files.newBufferedReader(live)) {
+				com.google.gson.JsonParser.parseReader(reader);
+			} catch (Exception malformed) {
+				// About to be reset, and an older backup is worth more than this file
+				net.pixelbank.burnt.BurntMod.LOGGER.warn(
+						"[Burnt] {} could not be read and will be reset to defaults by Cloth Config. "
+						+ "An earlier copy may still be at burnt_basic.json.bak", live);
+				return;
+			}
+			java.nio.file.Files.copy(live, live.resolveSibling("burnt_basic.json.bak"),
+					java.nio.file.StandardCopyOption.REPLACE_EXISTING);
+		} catch (Throwable t) {
+			net.pixelbank.burnt.BurntMod.LOGGER.warn("[Burnt] Could not back up the config: {}", t.toString());
+		}
 	}
 
 	/** Direct access to the live config instance. */
