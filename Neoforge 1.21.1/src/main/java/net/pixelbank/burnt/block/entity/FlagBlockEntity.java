@@ -94,7 +94,9 @@ public class FlagBlockEntity extends BlockEntity {
 
 		float angle = (float) mapVars.windAngle;
 		double multiplier = ParticleWindMultiplyerProcedure.execute(level, pos.getX(), pos.getY(), pos.getZ());
-		int speed = (int) Math.round(mapVars.windSpeed * multiplier);
+		// Living Wind spreads its own 0-2.5 range here rather than the clamped fire-spread value
+		double rawSpeed = net.pixelbank.burnt.compat.LivingWindBridge.flagSpeed(level, mapVars.windSpeed);
+		int speed = (int) Math.round(rawSpeed * multiplier);
 		int newStage = stageForSpeed(speed);
 
 		boolean stageChanged = newStage != be.animationStage;
@@ -120,10 +122,10 @@ public class FlagBlockEntity extends BlockEntity {
 	// Wind speed to animation bucket. Thresholds match the old playback-condition procedures exactly
 	private static int stageForSpeed(int speed) {
 		if (speed < 1)  return 0; // none
-		if (speed < 21) return 1; // low
-		if (speed < 41) return 2; // medium
-		if (speed < 61) return 3; // high
-		if (speed < 81) return 4; // strong
+		if (speed < 25) return 1; // low
+		if (speed < 45) return 2; // medium
+		if (speed < 65) return 3; // high
+		if (speed < 85) return 4; // strong
 		return                5; // full
 	}
 

@@ -22,6 +22,9 @@ public class LivingWindBridge {
     /** Living Wind strength that corresponds to Burnt's maximum wind speed of 100. */
     private static final double FULL_STRENGTH = 1.0;
 
+    /** Living Wind's own ceiling, used as full scale for the flag animation. */
+    private static final double FLAG_FULL_STRENGTH = 2.5;
+
     private static Method windApiGet;      // WindApi.get(ServerLevel) -> WindSnapshot
     private static Method snapshotStrength; // WindSnapshot.strength() -> float
     private static Method snapshotDirection;// WindSnapshot.directionDegrees() -> float
@@ -75,6 +78,29 @@ public class LivingWindBridge {
             return ((degrees % 360) + 360) % 360;
         } catch (Throwable e) {
             return 0.0;
+        }
+    }
+
+    /**
+     * Wind speed for the flag animation only.
+     *
+     * <p>getBurntSpeed maps strength 1.0 to Burnt's 100 and clamps there, which suits fire
+     * spread but flattens everything from 1.0 to Living Wind's 2.5 ceiling into one value -
+     * so a flag sat at its top animation through any windy spell. Flags instead spread the
+     * whole range, with 2.5 as full scale, keeping the hardest animations for real gales.
+     *
+     * <p>Fire spread still reads getBurntSpeed, so this changes nothing but the cloth.
+     *
+     * @param fallback speed to use when Living Wind is not driving, i.e. Burnt's own windSpeed
+     */
+    public static double flagSpeed(LevelAccessor world, double fallback) {
+        Object snapshot = snapshot(world);
+        if (snapshot == null) return fallback;
+        try {
+            double strength = ((Number) snapshotStrength.invoke(snapshot)).doubleValue();
+            return Math.max(0.0, Math.min(100.0, strength * (100.0 / FLAG_FULL_STRENGTH)));
+        } catch (Throwable e) {
+            return fallback;
         }
     }
 

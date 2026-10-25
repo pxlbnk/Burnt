@@ -8,7 +8,7 @@ public class LowPlaybackConditionProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		if ((entity instanceof FlagEntity _datEntI ? _datEntI.getEntityData().get(FlagEntity.DATA_windSpeed) : 0) >= 1 && (entity instanceof FlagEntity _datEntI ? _datEntI.getEntityData().get(FlagEntity.DATA_windSpeed) : 0) < 21) {
+		if ((entity instanceof FlagEntity _datEntI ? _datEntI.getEntityData().get(FlagEntity.DATA_windSpeed) : 0) >= 1 && (entity instanceof FlagEntity _datEntI ? _datEntI.getEntityData().get(FlagEntity.DATA_windSpeed) : 0) < 25) {
 			return true;
 		}
 		return false;

@@ -8,7 +8,7 @@ public class MediumPlaybackConditionProcedure {
 	public static boolean execute(Entity entity) {
 		if (entity == null)
 			return false;
-		if ((entity instanceof FlagEntity _datEntI ? _datEntI.getEntityData().get(FlagEntity.DATA_windSpeed) : 0) >= 21 && (entity instanceof FlagEntity _datEntI ? _datEntI.getEntityData().get(FlagEntity.DATA_windSpeed) : 0) < 41) {
+		if ((entity instanceof FlagEntity _datEntI ? _datEntI.getEntityData().get(FlagEntity.DATA_windSpeed) : 0) >= 25 && (entity instanceof FlagEntity _datEntI ? _datEntI.getEntityData().get(FlagEntity.DATA_windSpeed) : 0) < 45) {
 			return true;
 		}
 		return false;
