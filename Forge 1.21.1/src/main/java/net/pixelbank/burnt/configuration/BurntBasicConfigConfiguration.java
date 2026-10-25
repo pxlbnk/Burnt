@@ -203,11 +203,11 @@ public class BurntBasicConfigConfiguration implements ConfigData {
 	@ConfigEntry.Gui.Tooltip
 	public boolean heat_haze = true;
 
-	/** 0 = flags hang limp, 100 = tuned default, 200 = twice as lively */
+	/** 0 = flags hang limp, 5 = default, 10 = twice as lively */
 	@ConfigEntry.Category("visual_effects")
 	@ConfigEntry.Gui.Tooltip
-	@ConfigEntry.BoundedDiscrete(min = 0, max = 200)
-	public int flag_sensitivity = 100;
+	@ConfigEntry.BoundedDiscrete(min = 0, max = 10)
+	public int flag_sensitivity = 5;
 
 	/** 0 = disabled, 5 = default strength, 10 = full original intensity */
 	@ConfigEntry.Category("visual_effects")
