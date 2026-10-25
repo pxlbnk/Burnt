@@ -565,5 +565,7 @@
   "block.burnt.copper_fire_4": "Flames",
   "block.burnt.copper_fire_5": "Flames",
   "block.burnt.copper_fire_6": "Flames",
-  "block.burnt.copper_fire_7": "Flames"
+  "block.burnt.copper_fire_7": "Flames",
+  "text.autoconfig.burnt_basic.option.flag_sensitivity": "Flag Sensitivity",
+  "text.autoconfig.burnt_basic.option.flag_sensitivity.@Tooltip": "How strongly flags react to wind. Lower keeps the harder animations for gales only"
 }

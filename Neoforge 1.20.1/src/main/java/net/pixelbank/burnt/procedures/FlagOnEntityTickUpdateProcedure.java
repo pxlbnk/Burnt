@@ -37,7 +37,8 @@ public class FlagOnEntityTickUpdateProcedure {
 				double rawSpeed = net.pixelbank.burnt.compat.LivingWindBridge.flagSpeed(world,
 						BurntModVariables.MapVariables.get(world).windSpeed);
 				if (entity instanceof FlagEntity _datEntSetI)
-					_datEntSetI.getEntityData().set(FlagEntity.DATA_windSpeed, (int) Math.round(rawSpeed * multiplyer));
+					_datEntSetI.getEntityData().set(FlagEntity.DATA_windSpeed, (int) Math.round(
+							rawSpeed * multiplyer * (BurntBasicConfigConfiguration.FLAG_SENSITIVITY.get() / 100.0)));
 			}
 			if (!(world.getBlockState(BlockPos.containing(x, y - 1, z))).is(BurntTags.BLOCK_FLAGS)) {
 				if (!entity.level().isClientSide())

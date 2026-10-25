@@ -203,6 +203,12 @@ public class BurntBasicConfigConfiguration implements ConfigData {
 	@ConfigEntry.Gui.Tooltip
 	public boolean heat_haze = true;
 
+	/** 0 = flags hang limp, 100 = tuned default, 200 = twice as lively */
+	@ConfigEntry.Category("visual_effects")
+	@ConfigEntry.Gui.Tooltip
+	@ConfigEntry.BoundedDiscrete(min = 0, max = 200)
+	public int flag_sensitivity = 100;
+
 	/** 0 = disabled, 5 = default strength, 10 = full original intensity */
 	@ConfigEntry.Category("visual_effects")
 	@ConfigEntry.Gui.Tooltip
@@ -346,6 +352,7 @@ public class BurntBasicConfigConfiguration implements ConfigData {
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Boolean> ASH               = new ConfigValue<>(() -> instance.ash_particles);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Boolean> GROUND_SMOKE      = new ConfigValue<>(() -> instance.ground_smoke);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Double>  SMOKE_DENSITY     = new ConfigValue<>(() -> instance.smoke_density);
+	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Integer> FLAG_SENSITIVITY  = new ConfigValue<>(() -> instance.flag_sensitivity);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Boolean> DISTANT_PLUMES     = new ConfigValue<>(() -> instance.distant_plumes);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Integer> PLUME_CAP         = new ConfigValue<>(() -> instance.plume_cap);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Boolean> HEAT_HAZE         = new ConfigValue<>(() -> instance.heat_haze);
