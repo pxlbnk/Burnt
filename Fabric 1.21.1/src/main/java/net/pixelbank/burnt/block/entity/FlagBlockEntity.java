@@ -96,7 +96,9 @@ public class FlagBlockEntity extends BlockEntity {
 		double multiplier = ParticleWindMultiplyerProcedure.execute(level, pos.getX(), pos.getY(), pos.getZ());
 		// Living Wind spreads its own 0-2.5 range here rather than the clamped fire-spread value
 		double rawSpeed = net.pixelbank.burnt.compat.LivingWindBridge.flagSpeed(level, mapVars.windSpeed);
-		double sensitivity = BurntBasicConfigConfiguration.FLAG_SENSITIVITY.get() / 5.0;
+		// Squared, so 5 stays the tuned default while 10 reaches 4x - a linear scale topped
+		// out at 2x, which still read as limp when a wind mod reports modest strengths
+		double sensitivity = Math.pow(BurntBasicConfigConfiguration.FLAG_SENSITIVITY.get() / 5.0, 2);
 		int speed = (int) Math.round(rawSpeed * multiplier * sensitivity);
 		int newStage = stageForSpeed(speed);
 

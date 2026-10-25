@@ -57,6 +57,12 @@ public class BurntBasicConfigConfiguration implements ConfigData {
 	@ConfigEntry.Gui.Tooltip
 	public boolean enable_flags = true;
 
+	// How hard flags react to wind. 5 is the tuned default; the scale is deliberately steep at
+	// the top so 10 still looks like a gale with a wind mod that reports modest strengths
+	@ConfigEntry.Gui.Tooltip
+	@ConfigEntry.BoundedDiscrete(min = 0, max = 10)
+	public int flag_sensitivity = 5;
+
 	// When off, the fire extinguisher is removed from the game. Recipe change needs a world reload
 	@ConfigEntry.Gui.Tooltip
 	public boolean enable_fire_extinguisher = true;
@@ -203,12 +209,6 @@ public class BurntBasicConfigConfiguration implements ConfigData {
 	@ConfigEntry.Gui.Tooltip
 	public boolean heat_haze = true;
 
-	/** 0 = flags hang limp, 5 = default, 10 = twice as lively */
-	@ConfigEntry.Category("visual_effects")
-	@ConfigEntry.Gui.Tooltip
-	@ConfigEntry.BoundedDiscrete(min = 0, max = 10)
-	public int flag_sensitivity = 5;
-
 	/** 0 = disabled, 5 = default strength, 10 = full original intensity */
 	@ConfigEntry.Category("visual_effects")
 	@ConfigEntry.Gui.Tooltip
@@ -324,6 +324,7 @@ public class BurntBasicConfigConfiguration implements ConfigData {
 	@ConfigEntry.Gui.Excluded public static final ConfigValue<Boolean> IRON_GOLEM_FIGHT_FIRES = new ConfigValue<>(() -> instance.iron_golem_fight_fires); // IRON GOLEM FIRE FIGHTING
 	@ConfigEntry.Gui.Excluded public static final ConfigValue<Boolean> FLAME_ARROWS_IGNITE_CREEPERS = new ConfigValue<>(() -> instance.flame_arrows_ignite_creepers); // FLAME ARROW CREEPER
 	@ConfigEntry.Gui.Excluded public static final ConfigValue<Boolean> ENABLE_FLAGS       = new ConfigValue<>(() -> instance.enable_flags);
+	@ConfigEntry.Gui.Excluded public static final ConfigValue<Integer> FLAG_SENSITIVITY   = new ConfigValue<>(() -> instance.flag_sensitivity);
 	@ConfigEntry.Gui.Excluded public static final ConfigValue<Boolean> ENABLE_FIRE_EXTINGUISHER = new ConfigValue<>(() -> instance.enable_fire_extinguisher);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("burnsettings")  public static final ConfigValue<Double>  BURN_SPREAD        = new ConfigValue<>(() -> instance.burn_spread);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("burnsettings")  public static final ConfigValue<Double>  WOOD_SPREAD        = new ConfigValue<>(() -> instance.wood_spread);
@@ -352,7 +353,6 @@ public class BurntBasicConfigConfiguration implements ConfigData {
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Boolean> ASH               = new ConfigValue<>(() -> instance.ash_particles);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Boolean> GROUND_SMOKE      = new ConfigValue<>(() -> instance.ground_smoke);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Double>  SMOKE_DENSITY     = new ConfigValue<>(() -> instance.smoke_density);
-	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Integer> FLAG_SENSITIVITY  = new ConfigValue<>(() -> instance.flag_sensitivity);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Boolean> DISTANT_PLUMES     = new ConfigValue<>(() -> instance.distant_plumes);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Integer> PLUME_CAP         = new ConfigValue<>(() -> instance.plume_cap);
 	@ConfigEntry.Gui.Excluded @ConfigEntry.Category("visual_effects") public static final ConfigValue<Boolean> HEAT_HAZE         = new ConfigValue<>(() -> instance.heat_haze);
