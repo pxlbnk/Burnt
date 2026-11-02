@@ -50,6 +50,23 @@ public class GrassTickProcedure {
 					}
 				}
 			}
+			// Covered burnt soil had no way back. Recovery is triggered by a plant growing on top,
+			// and that can only be placed in air, so anything with a block over it stayed burnt for
+			// good. Soil under a floor still settles back on its own - no daylight and no plant,
+			// since neither can reach it. Something still burning above keeps it burnt
+			{
+				// This procedure is shared with the smouldering grass blocks, which are still
+				// burning - only the already-burnt soil settles back
+				BlockState _self = world.getBlockState(BlockPos.containing(x, y, z));
+				BlockState _above = world.getBlockState(BlockPos.containing(x, y + 1, z));
+				if (_self.getBlock() == net.pixelbank.burnt.init.BurntModBlocks.BURNT_DIRT && !_above.isAir() && !_above.is(BurntTags.BLOCK_BURNT_GROWS) && !_above.is(BurntTags.BLOCK_ON_FIRE)
+						&& Mth.nextInt(world.getRandom(), 0, 100) <= recovery) {
+					BlockPos _bp = BlockPos.containing(x, y, z);
+					BlockState _bs = Blocks.DIRT.defaultBlockState();
+					_bs = net.pixelbank.burnt.util.BurntBlockUtil.copyProperties(world.getBlockState(_bp), _bs);
+					world.setBlock(_bp, _bs, 3);
+				}
+			}
 			if ((world.getLevelData().isRaining() || net.pixelbank.burnt.util.BurntProtection.stopBurning(world, x, y, z)) && (world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.AIR) {
 				if (Math.random() <= 0.2) {
 					{
