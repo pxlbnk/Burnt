@@ -355,8 +355,9 @@ public class StartFlintBurnProcedure {
 								world.setBlock(pos, _bs, 3);
 							}
 						}
-						// Azalea / flowering azalea
-						if (bs.getBlock() == Blocks.AZALEA || bs.getBlock() == Blocks.FLOWERING_AZALEA) {
+						// Azalea / flowering azalea, plus anything tagged to burn like one
+						if (bs.getBlock() == Blocks.AZALEA || bs.getBlock() == Blocks.FLOWERING_AZALEA
+								|| bs.is(BurntTags.BLOCK_BURNS_TO_SMOLDERING_AZALEA)) {
 							{
 								BlockState _bs = BurntModBlocks.SMOLDERING_AZALEA.defaultBlockState();
 								_bs = net.pixelbank.burnt.util.BurntBlockUtil.copyProperties(bs, _bs);

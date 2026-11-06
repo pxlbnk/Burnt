@@ -991,7 +991,8 @@ public class BurnBabyProcedure {
 				}
 			}
 			if (done == false) {
-				if (bs.getBlock() == Blocks.AZALEA || bs.getBlock() == Blocks.FLOWERING_AZALEA) {
+				if (bs.getBlock() == Blocks.AZALEA || bs.getBlock() == Blocks.FLOWERING_AZALEA
+						|| bs.is(BurntTags.BLOCK_BURNS_TO_SMOLDERING_AZALEA)) {
 					{
 						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockState _bs = BurntModBlocks.SMOLDERING_AZALEA.defaultBlockState();

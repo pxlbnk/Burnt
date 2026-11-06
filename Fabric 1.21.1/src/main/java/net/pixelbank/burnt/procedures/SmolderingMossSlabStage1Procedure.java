@@ -71,7 +71,9 @@ public class SmolderingMossSlabStage1Procedure {
 							}
 						}
 					}
-					if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.AZALEA || (world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.FLOWERING_AZALEA) {
+					if ((world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.AZALEA
+							|| (world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock() == Blocks.FLOWERING_AZALEA
+							|| (world.getBlockState(BlockPos.containing(x, y + 1, z))).is(BurntTags.BLOCK_BURNS_TO_SMOLDERING_AZALEA)) {
 						{
 							BlockPos _bp = BlockPos.containing(x, y + 1, z);
 							BlockState _bs = BurntModBlocks.SMOLDERING_AZALEA.defaultBlockState();

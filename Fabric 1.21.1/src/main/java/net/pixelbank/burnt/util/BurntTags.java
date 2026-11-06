@@ -344,6 +344,8 @@ public final class BurntTags {
             TagKey.create(Registries.BLOCK, ResourceLocation.parse("burnt:burns_to_burnt_farmland"));
     public static final TagKey<Block> BLOCK_BURNS_TO_SMOLDERING_CROPS =
             TagKey.create(Registries.BLOCK, ResourceLocation.parse("burnt:burns_to_smoldering_crops"));
+    public static final TagKey<Block> BLOCK_BURNS_TO_SMOLDERING_AZALEA =
+            TagKey.create(Registries.BLOCK, ResourceLocation.parse("burnt:burns_to_smoldering_azalea"));
     public static final TagKey<Block> BLOCK_BURNS_TO_SMOLDERING_FERN =
             TagKey.create(Registries.BLOCK, ResourceLocation.parse("burnt:burns_to_smoldering_fern"));
     public static final TagKey<Block> BLOCK_BURNS_TO_SMOLDERING_TALL_GRASS =
@@ -436,6 +438,7 @@ public final class BurntTags {
                 || state.is(BLOCK_BURNS_TO_SMOLDERING_FENCE_GATES)
                 || state.is(BLOCK_BURNS_TO_BURNT_FARMLAND)
                 || state.is(BLOCK_BURNS_TO_SMOLDERING_CROPS)
+                || state.is(BLOCK_BURNS_TO_SMOLDERING_AZALEA)
                 || state.is(BLOCK_BURNS_TO_SMOLDERING_FERN)
                 || state.is(BLOCK_BURNS_TO_SMOLDERING_TALL_GRASS)
                 || state.is(BLOCK_BURNS_TO_DOUBLE_TALL_GRASS)

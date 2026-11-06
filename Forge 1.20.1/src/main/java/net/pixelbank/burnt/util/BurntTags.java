@@ -143,6 +143,9 @@ public final class BurntTags {
     /** Modded crop blocks that should go through the standard smoldering crops chain. */
     public static final TagKey<Block> BLOCK_BURNS_TO_SMOLDERING_CROPS =
             TagKey.create(Registries.BLOCK, new ResourceLocation("burnt:burns_to_smoldering_crops"));
+    /** Modded azalea-like bushes that should become smoldering_azalea. */
+    public static final TagKey<Block> BLOCK_BURNS_TO_SMOLDERING_AZALEA =
+            TagKey.create(Registries.BLOCK, new ResourceLocation("burnt:burns_to_smoldering_azalea"));
     /** Modded fern-like plants that should become smoldering_fern. */
     public static final TagKey<Block> BLOCK_BURNS_TO_SMOLDERING_FERN =
             TagKey.create(Registries.BLOCK, new ResourceLocation("burnt:burns_to_smoldering_fern"));
@@ -476,6 +479,7 @@ public final class BurntTags {
                 || state.is(BLOCK_BURNS_TO_SMOLDERING_FENCE_GATES)
                 || state.is(BLOCK_BURNS_TO_BURNT_FARMLAND)
                 || state.is(BLOCK_BURNS_TO_SMOLDERING_CROPS)
+                || state.is(BLOCK_BURNS_TO_SMOLDERING_AZALEA)
                 || state.is(BLOCK_BURNS_TO_SMOLDERING_FERN)
                 || state.is(BLOCK_BURNS_TO_SMOLDERING_TALL_GRASS)
                 || state.is(BLOCK_BURNS_TO_DOUBLE_TALL_GRASS)
